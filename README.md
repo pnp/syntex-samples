@@ -1,8 +1,8 @@
 # Microsoft SharePoint Syntex Samples
 
-This repository contains community samples that demonstrate different usage patterns of Microsoft SharePoint Syntex.
+This repository contains community samples that demonstrate different usage patterns of Document Understanding models in Microsoft SharePoint Syntex.
 
-> We do welcome community contributions (e.g. Syntex Content classification and extraction models) to the samples folder in this repository. Notice that if you use contribute a model, please make sure that the training data submitted with your model can be publicly shared.
+> We do welcome community contributions (e.g. Syntex Document Understanding models) to the samples folder in this repository. Note that if you use contribute a model, please make sure that the training data submitted with your model can be publicly shared.
 
 ## Have issues or questions?
 
@@ -17,7 +17,17 @@ Please use following logic on submitting your questions or issues to right locat
 
 ## Using the samples
 
-TODO
+The samples in this repository contain both the Document Understanding model files, as well as the files used to train the model. Once imported, you will be able to use these models to process files, as well as view and edit the key model elements- the classifier and extractors.
+
+Samples are provided as PnP template, that should be imported to a Content Center site. 
+
+For example, this can be done using PowerShell
+
+```powershell
+Connect-PnPOnline -Url "https://contoso.sharepoint.com/sites/yourContentCenter"
+
+Invoke-PnPSiteTemplate -Path .\sampleModel.pnp
+```
 
 ## Authors
 This repository's contributors are all community members who volunteered their time to share code samples. Work is done as an open source community project, which each sample contained in their own solution.
