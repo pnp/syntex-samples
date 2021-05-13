@@ -29,6 +29,8 @@ Connect-PnPOnline -Url "https://contoso.sharepoint.com/sites/yourContentCenter"
 Invoke-PnPSiteTemplate -Path .\sampleModel.pnp
 ```
 
+See the [Exporting Models](https://github.com/pnp/syntex-samples/tree/main/docs/Exporting-Models.md) article for guidance on how to export Document Understanding models. 
+
 ## Authors
 This repository's contributors are all community members who volunteered their time to share code samples. Work is done as an open source community project, which each sample contained in their own solution.
 
