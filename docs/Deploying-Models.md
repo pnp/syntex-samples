@@ -31,7 +31,8 @@ $batch = New-PnPBatch
 # Add model deployments to the batch
 Publish-PnPSyntexModel -Model "Contract Notice" -TargetSiteUrl "https://contoso.sharepoint.com/sites/finance" -TargetWebServerRelativeUrl "/sites/finance" -TargetLibraryServerRelativeUrl "/sites/finance/shared%20documents" -Batch $batch
 Publish-PnPSyntexModel -Model "Contract Notice" -TargetSiteUrl "https://contoso.sharepoint.com/sites/crm" -TargetWebServerRelativeUrl "/sites/crm" -TargetLibraryServerRelativeUrl "/sites/crm/shared%20documents" -Batch $batch
-Publish-PnPSyntexModel -Model "Contract Notice" -TargetSiteUrl "https://contoso.sharepoint.com/sites/finance" -TargetWebServerRelativeUrl "/sites/finance/belgium" -TargetLibraryServerRelativeUrl "/sites/finance/belgium/shared%20documents" -Batch Publish-PnPSyntexModel -Model "Contract Notice" -TargetSiteUrl "https://contoso.sharepoint.com/sites/finance" -TargetWebServerRelativeUrl "/sites/finance/uk" -TargetLibraryServerRelativeUrl "/sites/finance/uk/shared%20documents" -Batch $batch
+Publish-PnPSyntexModel -Model "Contract Notice" -TargetSiteUrl "https://contoso.sharepoint.com/sites/finance" -TargetWebServerRelativeUrl "/sites/finance/belgium" -TargetLibraryServerRelativeUrl "/sites/finance/belgium/shared%20documents" -Batch 
+Publish-PnPSyntexModel -Model "Contract Notice" -TargetSiteUrl "https://contoso.sharepoint.com/sites/finance" -TargetWebServerRelativeUrl "/sites/finance/uk" -TargetLibraryServerRelativeUrl "/sites/finance/uk/shared%20documents" -Batch $batch
 
 # Execute batch
 Invoke-PnPBatch -Batch $batch
