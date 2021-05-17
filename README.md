@@ -29,7 +29,9 @@ Connect-PnPOnline -Url "https://contoso.sharepoint.com/sites/yourContentCenter"
 Invoke-PnPSiteTemplate -Path .\sampleModel.pnp
 ```
 
-See the [Exporting Models](https://github.com/pnp/syntex-samples/tree/main/docs/Exporting-Models.md) article for guidance on how to export Document Understanding models.
+See the [Exporting Models](docs/Exporting-Models.md) article for guidance on how to export Document Understanding models.
+
+Once a model has been imported in your SharePoint Syntex Content Center site you can review and update it to match your needs. If you want to further deploy the model then checkout the [Deploying Models](docs/Deploying-Models.md) article to learn more.
 
 ## Authors
 
@@ -38,8 +40,6 @@ This repository's contributors are all community members who volunteered their t
 ## Contributions
 
 These samples are direct from the feature teams, PnP core team (http://aka.ms/m365pnp) or shared by the community. We welcome your input on issues and suggestions for new samples. If you have any questions, just let us know.
-
-Please have a look on our [Contribution Guidance](./.github/CONTRIBUTING.md) before submitting your pull requests, so that we can get your contribution processed as fast as possible.
 
 ## Code of Conduct
 

@@ -1,6 +1,6 @@
 # Exporting SharePoint Syntex Models
 
-SharePoint Syntex models can be exported as PnP templates, enabling reuse across Content Centers or tenants. 
+SharePoint Syntex models can be exported as PnP templates, enabling reuse across Content Centers or tenants.
 
 ## Export all models in a Content Center
 
@@ -42,6 +42,7 @@ The extract.json defines which models you want to export, allowing to specify mo
     }
 }
 ```
+
 ### Example- Specify model by id
 
 ```json
