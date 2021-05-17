@@ -19,9 +19,9 @@ Please use following logic on submitting your questions or issues to right locat
 
 The samples in this repository contain both the Document Understanding model files, as well as the files used to train the model. Once imported, you will be able to use these models to process files, as well as view and edit the key model elements- the classifier and extractors.
 
-Samples are provided as PnP template, that should be imported to a Content Center site. 
+Samples are provided as PnP template, that should be imported to a Content Center site.
 
-For example, this can be done using PowerShell
+For example, this can be done using [PnP PowerShell](https://pnp.github.io/powershell/):
 
 ```powershell
 Connect-PnPOnline -Url "https://contoso.sharepoint.com/sites/yourContentCenter"
@@ -29,9 +29,10 @@ Connect-PnPOnline -Url "https://contoso.sharepoint.com/sites/yourContentCenter"
 Invoke-PnPSiteTemplate -Path .\sampleModel.pnp
 ```
 
-See the [Exporting Models](https://github.com/pnp/syntex-samples/tree/main/docs/Exporting-Models.md) article for guidance on how to export Document Understanding models. 
+See the [Exporting Models](https://github.com/pnp/syntex-samples/tree/main/docs/Exporting-Models.md) article for guidance on how to export Document Understanding models.
 
 ## Authors
+
 This repository's contributors are all community members who volunteered their time to share code samples. Work is done as an open source community project, which each sample contained in their own solution.
 
 ## Contributions
@@ -41,6 +42,7 @@ These samples are direct from the feature teams, PnP core team (http://aka.ms/m3
 Please have a look on our [Contribution Guidance](./.github/CONTRIBUTING.md) before submitting your pull requests, so that we can get your contribution processed as fast as possible.
 
 ## Code of Conduct
+
 This repository has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
 ## Disclaimer
