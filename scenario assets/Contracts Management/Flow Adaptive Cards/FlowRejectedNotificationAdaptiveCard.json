@@ -1,0 +1,75 @@
+{ 
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Container",
+            "style": "attention",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "size": "Large",
+                                    "weight": "Bolder",
+                                    "text": "CONTRACT REJECTED"
+                                }
+                            ],
+                            "width": "stretch"
+                        }
+                    ]
+                }
+            ],
+            "bleed": true
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "FactSet",
+                    "spacing": "Large",
+                    "facts": [
+                        {
+                            "title": "Client",
+                            "value": "@{triggerOutputs()?['body/Client']}"
+                        },
+                        {
+                            "title": "Contractor",
+                            "value": "@{triggerOutputs()?['body/Contractor']}"
+                        },
+                        {
+                            "title": "Fee amount",
+                            "value": "@{triggerOutputs()?['body/FeeAmount']}"
+                        },
+                        {
+                            "title": "Rejected by",
+                            "value": "@{body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')?['responder']['displayName']}"
+                        },
+                        {
+                            "title": "Rejected date",
+                            "value": "@{body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')?['responseTime']}"
+                        },
+                        {
+                            "title": "Comment",
+                            "value": "@{body('Post_an_Adaptive_Card_to_a_Teams_channel_and_wait_for_a_response')?['data']['acComments']}"
+                        },
+                        {
+                            "title": " ",
+                            "value": " "
+                        },
+                        {
+                            "title": "Status",
+                            "value": "Needs review"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.2",
+    "fallbackText": "This card requires Adaptive Cards v1.2 support to be rendered properly."
+}
