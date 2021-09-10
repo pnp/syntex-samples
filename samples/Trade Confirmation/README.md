@@ -37,6 +37,7 @@ Invoke-PnPSiteTemplate -Path .\TradeConfirmation.pnp
 Version|Date|Comments
 -------|----|--------
 1.0|May 11, 2021 |Initial release
+1.1|September 10, 2021 | Added Trade Date extractor
 
 ## Disclaimer
 
