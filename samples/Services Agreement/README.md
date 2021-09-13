@@ -11,6 +11,7 @@ The sample features the following:
 - 7 training files (6 positive examples, 1 negative examples)
 
 The extractors in this model are:
+
 Extractor Name|Explanation Count
 --------------|-----------------
 Client|2
