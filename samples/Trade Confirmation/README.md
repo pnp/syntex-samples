@@ -11,6 +11,7 @@ The sample features the following:
 - 15 training files (11 positive examples, 4 negative examples)
 
 The extractors in this model are:
+
 Extractor Name|Explanation Count
 --------------|-----------------
 Cusip|1
