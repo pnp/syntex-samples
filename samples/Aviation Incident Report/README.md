@@ -16,7 +16,7 @@ Extractor Name|Explanation Count|Types
 --------------|-----------------|-----------------
 Incident Date|4|Phrase List
 Flight Number|3|Phrase List, Regular Expression
-Incident ICAO Code|3|Phrase List|Proximity
+Incident ICAO Code|3|Phrase List, Proximity
 Airline|5|Phrase List
 Aeroplane Manufacturer|5|Phrase List
 
