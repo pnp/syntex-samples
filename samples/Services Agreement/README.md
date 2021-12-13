@@ -12,13 +12,13 @@ The sample features the following:
 
 The extractors in this model are:
 
-Extractor Name|Explanation Count
---------------|-----------------
-Client|2
-Contractor|1
-Fee Amount|1
-Contract Services|2
-Agreement Date|2
+Extractor Name|Explanation Count|Types
+--------------|-----------------|-----------------
+Client|2|Phrase List
+Contractor|1|Phrase List
+Fee Amount|1|Phrase List
+Contract Services|2|Phrase List
+Agreement Date|2|Phrase List
 
 ## Using the model
 
@@ -32,6 +32,12 @@ Connect-PnPOnline -Url "https://contoso.sharepoint.com/sites/yourContentCenter"
 Invoke-PnPSiteTemplate -Path .\ServicesAgreement.pnp
 ```
 
+## Sample
+
+Solution|Author(s)
+--------|---------
+AviationIncidentReport.pnp | [Leon Armston](https://github.com/LeonArmston)
+
 ## Version history
 
 Version|Date|Comments
@@ -43,3 +49,4 @@ Version|Date|Comments
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 ---
+<img src="https://telemetry.sharepointpnp.com/syntex-samples/samples/Services Agreement" />
