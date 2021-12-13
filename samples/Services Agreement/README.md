@@ -36,7 +36,7 @@ Invoke-PnPSiteTemplate -Path .\ServicesAgreement.pnp
 
 Solution|Author(s)
 --------|---------
-AviationIncidentReport.pnp | [Leon Armston](https://github.com/LeonArmston)
+ServicesAgreement.pnp | [James Eccles](https://github.com/jameseccles)
 
 ## Version history
 
