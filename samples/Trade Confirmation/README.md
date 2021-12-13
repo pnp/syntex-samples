@@ -7,7 +7,7 @@ This PnP template contains a SharePoint Syntex Document Understanding model used
 The sample features the following:
 
 - Classifier
-- 6 extractors
+- 7 extractors
 - 15 training files (11 positive examples, 4 negative examples)
 
 The extractors in this model are:
