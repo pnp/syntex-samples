@@ -12,13 +12,13 @@ The sample features the following:
 
 The extractors in this model are:
 
-Extractor Name|Explanation Count
---------------|-----------------
-Provider|2
-Effective Date|3
-Provider URL|2
-Discount|1
-Notice Addressee|2
+Extractor Name|Explanation Count|Types
+--------------|-----------------|-----------------
+Provider|2|Phrase List
+Effective Date|3|Phrase List
+Provider URL|2|Phrase List
+Discount|1|Phrase List
+Notice Addressee|2|Phrase List
 
 ## Using the model
 
@@ -32,6 +32,12 @@ Connect-PnPOnline -Url "https://contoso.sharepoint.com/sites/yourContentCenter"
 Invoke-PnPSiteTemplate -Path .\BenefitChange.pnp
 ```
 
+## Sample
+
+Solution|Author(s)
+--------|---------
+BenefitChange.pnp | [James Eccles](https://github.com/JamesEccles)
+
 ## Version history
 
 Version|Date|Comments
@@ -43,3 +49,4 @@ Version|Date|Comments
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 ---
+<img src="https://telemetry.sharepointpnp.com/syntex-samples/samples/Benefit Change" />
