@@ -14,14 +14,14 @@ The extractors in this model are:
 
 Extractor Name|Explanation Count|Types
 --------------|-----------------|-----------------
-PO Number|2
-Subtotal|2
-Tax|1
-Ship/Ins|1
-Handling|1
-PO Total|3
-Vendor|2
-PO Date|2
+PO Number|2|Phrase List
+Subtotal|2|Phrase List
+Tax|1|Phrase List
+Ship/Ins|1|Phrase List
+Handling|1|Phrase List
+PO Total|3|Phrase List
+Vendor|2|Phrase List
+PO Date|2|Phrase List
 
 ## Using the model
 
