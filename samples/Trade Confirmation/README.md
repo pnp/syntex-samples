@@ -12,14 +12,15 @@ The sample features the following:
 
 The extractors in this model are:
 
-Extractor Name|Explanation Count
---------------|-----------------
-Cusip|1
-Ticker|1
-Customer|1
-Amount|1
-Price|1
-Total|2
+Extractor Name|Explanation Count|Types
+--------------|-----------------|-----------------
+Cusip|1|Phrase List
+Ticker|1|Phrase List
+Customer|1|Phrase List
+Amount|1|Phrase List
+Price|1|Phrase List
+Total|2|Phrase List
+Trade Date|2|Phrase List
 
 ## Using the model
 
@@ -33,6 +34,12 @@ Connect-PnPOnline -Url "https://contoso.sharepoint.com/sites/yourContentCenter"
 Invoke-PnPSiteTemplate -Path .\TradeConfirmation.pnp
 ```
 
+## Sample
+
+Solution|Author(s)
+--------|---------
+TradeConfirmation.pnp| [James Eccles](https://github.com/jameseccles)
+
 ## Version history
 
 Version|Date|Comments
@@ -44,4 +51,5 @@ Version|Date|Comments
 
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
----
+<img src="https://telemetry.sharepointpnp.com/syntex-samples/samples/Trade Confirmation" />
+
