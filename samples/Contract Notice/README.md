@@ -12,13 +12,13 @@ The sample features the following:
 
 The extractors in this model are:
 
-Extractor Name|Explanation Count
---------------|-----------------
-Company Name|2
-Plan Type|1
-Start Date|1
-Member Count|1
-Trials|1
+Extractor Name|Explanation Count|Types
+--------------|-----------------|-----------------
+Company Name|2|Phrase List
+Plan Type|1|Phrase List
+Start Date|1|Phrase List
+Member Count|1|Phrase List
+Trials|1|Phrase List
 
 ## Using the model
 
@@ -32,6 +32,12 @@ Connect-PnPOnline -Url "https://contoso.sharepoint.com/sites/yourContentCenter"
 Invoke-PnPSiteTemplate -Path .\ContractNotice.pnp
 ```
 
+## Sample
+
+Solution|Author(s)
+--------|---------
+ContractNotice.pnp | [James Eccles](https://github.com/JamesEccles)
+
 ## Version history
 
 Version|Date|Comments
@@ -43,3 +49,4 @@ Version|Date|Comments
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 ---
+<img src="https://telemetry.sharepointpnp.com/syntex-samples/samples/Contract Notice" />

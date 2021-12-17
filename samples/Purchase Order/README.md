@@ -12,16 +12,16 @@ The sample features the following:
 
 The extractors in this model are:
 
-Extractor Name|Explanation Count
---------------|-----------------
-PO Number|2
-Subtotal|2
-Tax|1
-Ship/Ins|1
-Handling|1
-PO Total|3
-Vendor|2
-PO Date|2
+Extractor Name|Explanation Count|Types
+--------------|-----------------|-----------------
+PO Number|2|Phrase List
+Subtotal|2|Phrase List
+Tax|1|Phrase List
+Ship/Ins|1|Phrase List
+Handling|1|Phrase List
+PO Total|3|Phrase List
+Vendor|2|Phrase List
+PO Date|2|Phrase List
 
 ## Using the model
 
@@ -35,6 +35,12 @@ Connect-PnPOnline -Url "https://contoso.sharepoint.com/sites/yourContentCenter"
 Invoke-PnPSiteTemplate -Path .\PurchaseOrder.pnp
 ```
 
+## Sample
+
+Solution|Author(s)
+--------|---------
+PurchaseOrder.pnp | [James Eccles](https://github.com/JamesEccles)
+
 ## Version history
 
 Version|Date|Comments
@@ -46,3 +52,4 @@ Version|Date|Comments
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 ---
+<img src="https://telemetry.sharepointpnp.com/syntex-samples/samples/Purchase Order" />
