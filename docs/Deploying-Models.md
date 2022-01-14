@@ -87,3 +87,5 @@ Request-PnPSyntexClassifyAndExtract -FileUrl "/sites/finance/documents/relecloud
 # Execute batch
 Invoke-PnPBatch -Batch $batch
 ```
+
+<img src="https://telemetry.sharepointpnp.com/syntex-samples/docs/deploying models" />

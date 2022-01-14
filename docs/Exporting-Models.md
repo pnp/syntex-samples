@@ -66,3 +66,5 @@ The extract.json defines which models you want to export, allowing to specify mo
 If you do not include the property "includeTrainingData", the default behavior is to include.
 
 > NOTE: training data is required for a model to be editable when imported to a destination Content Center
+
+<img src="https://telemetry.sharepointpnp.com/syntex-samples/docs/exporting models" />

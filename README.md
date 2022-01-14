@@ -50,3 +50,5 @@ This repository has adopted the [Microsoft Open Source Code of Conduct](https://
 **THESE SAMPLES ARE PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 > Sharing is caring!
+
+<img src="https://telemetry.sharepointpnp.com/syntex-samples/readme" />
