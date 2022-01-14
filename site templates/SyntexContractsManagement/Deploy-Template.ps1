@@ -1,9 +1,9 @@
 # This script assumes you've installed a recent version of PnP PowerShell
-# 
+#
 # To install PnP PowerShell:
 # Install-Module -Name PnP.PowerShell
 #
-# After initial installation you will need to setup an Azure AD application to authenticate. See https://pnp.github.io/powershell/articles/authentication.html 
+# After initial installation you will need to setup an Azure AD application to authenticate. See https://pnp.github.io/powershell/articles/authentication.html
 # for the details or use below:
 # Register-PnPManagementShellAccess
 #
@@ -16,7 +16,7 @@ Installs the Syntex Contracts Management template in your tenant.
 .EXAMPLE
 PS C:\> .\Deploy-Template.ps1 -TenantUrl https://contoso.sharepoint.com
 .EXAMPLE
-PS C:\> .\Deploy-Template.ps1 -TenantUrl https://contoso.sharepoint.com -SiteUrl "/sites/ContractsManagement" 
+PS C:\> .\Deploy-Template.ps1 -TenantUrl https://contoso.sharepoint.com -SiteUrl "/sites/ContractsManagement"
 #>
 
 [CmdletBinding()]
@@ -25,11 +25,14 @@ param
     [Parameter(Mandatory = $true, HelpMessage="Url of your tenant (e.g. https://contoso.sharepoint.com)")]
     [string] $TenantUrl,
     [Parameter(Mandatory = $false, HelpMessage="Site relative url for the site to create (defaults to /sites/ContractsManagement)")]
-    [string] $SiteUrl    
+    [string] $SiteUrl
 )
 
 # Connect to the root site of the tenant
 Connect-PnPOnline -Url $TenantUrl -Interactive
+
+# Get current user's username
+$user = (Get-PnPConnection).PScredential.UserName
 
 # Verify if the user has a Syntex License
 Write-Host "Performing a SharePoint Syntex license check..."
@@ -40,8 +43,8 @@ if ($syntexLicense -ne '{"value":true}')
     Write-Host "Current user does not have a SharePoint Syntex license, template cannot be deployed." -ForegroundColor Red
     Exit 1
 }
-else 
-{    
+else
+{
     Write-Host "Current user does have a SharePoint Syntex license, deployment continues..." -ForegroundColor Green
 }
 
@@ -50,6 +53,22 @@ if ($SiteUrl -eq $null -or $SiteUrl -eq "")
 {
     $SiteUrl = "/sites/ContractsManagement"
 }
+
+Write-Host "Check if Content Center site exists - if not create new Content Center"
+# Check if Content Center site exists
+$checksite = Get-PnPTenantSite -Identity "$TenantUrl$SiteUrl" -ErrorAction SilentlyContinue
+if(!$checksite)
+{
+    Write-Host "Creating new content centre $TenantUrl$SiteUrl" -ForegroundColor Red
+    New-PnPTenantSite -Template 'CONTENTCTR#0' -Title "Contracts Management" -Url "$TenantUrl$SiteUrl" -Owner $user -Lcid 1033 -TimeZone 2 -Wait
+}
+else
+{
+    Write-Host "Site already created: $TenantUrl$SiteUrl" -ForegroundColor Green
+}
+
+Write-Host "Performing post deployment steps..."
+Connect-PnPOnline -Url "$TenantUrl$SiteUrl" -Interactive
 
 Write-Host "Applying the Contracts Management package..."
 Invoke-PnPTenantTemplate -Path .\ContractsManagement.pnp -Parameters @{"SiteUrl"=$SiteUrl} -ClearNavigation
