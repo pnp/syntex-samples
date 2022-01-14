@@ -159,7 +159,7 @@
                           "margin-bottom": "12px",
                           "font-size": "14px"
                         },
-                        "txtContent": "[$FeeAmount]"
+                        "txtContent": "[$Fee_x0020_Amount]"
                       },
                       {
                         "elmType": "div",
