@@ -12,8 +12,13 @@ Please use following logic on submitting your questions or issues to right locat
 
 ## Additional resources
 
-* [Microsoft SharePoint Syntex overview](https://www.microsoft.com/en-ww/microsoft-365/enterprise/sharepoint-syntex-overview)
+* [Microsoft SharePoint Syntex overview](https://aka.ms/SharePointSyntex)
 * [Introduction to Microsoft SharePoint Syntex](https://docs.microsoft.com/en-us/microsoft-365/contentunderstanding/)
+* [SharePoint Syntex adoption guide](https://adoption.microsoft.com/sharepoint-syntex-adoption)
+* [SharePoint Lookbook - SharePoint Syntex designs now available](https://lookbook.microsoft.com/)
+* [SharePoint Syntex - filtered view of the M365 roadmap](https://aka.ms/SyntexRoadmap)
+* [SharePoint Syntex feedback portal](https://aka.ms/Syntex/Feedback)
+* [Microsoft Learn - SharePoint Syntex modules](https://docs.microsoft.com/en-us/learn/paths/syntex-get-started)
 
 ## Using the samples
 
