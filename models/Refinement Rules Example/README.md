@@ -2,11 +2,10 @@
 
 ## Summary
 
-This PnP template contains a SharePoint Syntex Document Understanding model used to classify Reports. 
+This PnP template contains a SharePoint Syntex Document Understanding model used to demonstrate the new refinement rules functionality that can be added to extractors.
+Refinement rules are ran on the returned entity values from an extractor i.e remove duplicates, select first/last value or line etc.
 
-This model demonstrates the new refinement rule functionality that can be added to extractors. Set a rule to specify how to process returned entity values i.e remove duplicates, select first/last value or line etc.
-
-All five refinement rules currently available to be selected are demonstrated in this model.
+All five refinement rules currently available to be used are demonstrated in this model.
 
 The sample features the following:
 
@@ -57,4 +56,4 @@ Version|Date|Comments
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 ---
-<img src="https://telemetry.sharepointpnp.com/syntex-samples/samples/Report" />
+<img src="https://telemetry.sharepointpnp.com/syntex-samples/samples/Refinement Rules Example" />
