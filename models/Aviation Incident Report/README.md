@@ -17,8 +17,8 @@ Extractor Name|Explanation Count|Types
 Incident Date|4|Phrase List
 Flight Number|3|Phrase List, Regular Expression
 Incident ICAO Code|3|Phrase List, Proximity
-Airline|5|Phrase List
-Aeroplane Manufacturer|5|Phrase List
+Airline|3|Phrase List
+Aeroplane Manufacturer|4|Phrase List
 
 ## Using the model
 
@@ -42,6 +42,7 @@ AviationIncidentReport.pnp | [Leon Armston](https://github.com/LeonArmston)
 
 Version|Date|Comments
 -------|----|--------
+2.0|Apr 26, 2022 |Updated tidied up extractors & classifier
 1.0|Dec 06, 2021 |Initial release
 
 ## Disclaimer
