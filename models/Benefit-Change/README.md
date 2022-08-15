@@ -4,6 +4,8 @@
 
 This PnP template contains a SharePoint Syntex Document Understanding model used to classify Benefit Change notices.
 
+![Benefit Change Example](assets/training-file-example.png)
+
 The sample features the following:
 
 - Classifier
@@ -33,6 +35,8 @@ Invoke-PnPSiteTemplate -Path .\BenefitChange.pnp
 ```
 
 ## Sample
+
+You can find the model source code including training files here: [/models/Benefit-Change](https://github.com/pnp/syntex-samples/tree/main/models/Benefit-Change)
 
 Solution|Author(s)
 --------|---------
