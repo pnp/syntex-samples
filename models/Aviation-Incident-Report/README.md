@@ -4,6 +4,8 @@
 
 This PnP template contains a SharePoint Syntex Document Understanding model used to classify Aviation Incident Reports.
 
+![Aviation Incident Report Example](assets/training-file-example.png)
+
 The sample features the following:
 
 - Classifier
@@ -34,6 +36,8 @@ Invoke-PnPSiteTemplate -Path .\AviationIncidentReport.pnp
 
 ## Sample
 
+You can find the model source code including training files here: [/models/Aviation-Incident-Report](https://github.com/pnp/syntex-samples/tree/main/models/Aviation-Incident-Report)
+
 Solution|Author(s)
 --------|---------
 AviationIncidentReport.pnp | [Leon Armston](https://github.com/LeonArmston)
@@ -50,4 +54,4 @@ Version|Date|Comments
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 ---
-<img src="https://telemetry.sharepointpnp.com/syntex-samples/samples/Aviation Incident Report" />
+<img src="https://telemetry.sharepointpnp.com/syntex-samples/models/Aviation-Incident-Report" />
