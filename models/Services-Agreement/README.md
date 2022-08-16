@@ -4,6 +4,8 @@
 
 This PnP template contains a SharePoint Syntex Document Understanding model used to classify Services Agreements.
 
+![Services Agreement](assets/training-file-example.png)
+
 The sample features the following:
 
 - Classifier
@@ -34,6 +36,8 @@ Invoke-PnPSiteTemplate -Path .\ServicesAgreement.pnp
 
 ## Sample
 
+You can find the model source code including training files here: [/models/Services-Agreement](https://github.com/pnp/syntex-samples/tree/main/models/Services-Agreement)
+
 Solution|Author(s)
 --------|---------
 ServicesAgreement.pnp | [James Eccles](https://github.com/jameseccles)
@@ -49,4 +53,4 @@ Version|Date|Comments
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 ---
-<img src="https://telemetry.sharepointpnp.com/syntex-samples/samples/Services Agreement" />
+<img src="https://telemetry.sharepointpnp.com/syntex-samples/models/Services-Agreement" />

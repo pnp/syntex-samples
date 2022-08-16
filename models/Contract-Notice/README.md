@@ -4,6 +4,8 @@
 
 This PnP template contains a SharePoint Syntex Document Understanding model used to classify Contract Notices.
 
+![Contract Notice Example](assets/training-file-example.png)
+
 The sample features the following:
 
 - Classifier
@@ -34,6 +36,8 @@ Invoke-PnPSiteTemplate -Path .\ContractNotice.pnp
 
 ## Sample
 
+You can find the model source code including training files here: [/models/Contract-Notice](https://github.com/pnp/syntex-samples/tree/main/models/Contract-Notice)
+
 Solution|Author(s)
 --------|---------
 ContractNotice.pnp | [James Eccles](https://github.com/JamesEccles)
@@ -49,4 +53,4 @@ Version|Date|Comments
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 ---
-<img src="https://telemetry.sharepointpnp.com/syntex-samples/samples/Contract Notice" />
+<img src="https://telemetry.sharepointpnp.com/syntex-samples/models/Contract-Notice" />

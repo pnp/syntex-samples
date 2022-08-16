@@ -4,6 +4,8 @@
 
 This PnP template contains a SharePoint Syntex Document Understanding model used to classify Purchase Orders.
 
+![Purchase Order Example](assets/training-file-example.png)
+
 The sample features the following:
 
 - Classifier
@@ -37,6 +39,8 @@ Invoke-PnPSiteTemplate -Path .\PurchaseOrder.pnp
 
 ## Sample
 
+You can find the model source code including training files here: [/models/Purchase-Order](https://github.com/pnp/syntex-samples/tree/main/models/Purchase-Order)
+
 Solution|Author(s)
 --------|---------
 PurchaseOrder.pnp | [James Eccles](https://github.com/JamesEccles)
@@ -52,4 +56,4 @@ Version|Date|Comments
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 ---
-<img src="https://telemetry.sharepointpnp.com/syntex-samples/samples/Purchase Order" />
+<img src="https://telemetry.sharepointpnp.com/syntex-samples/models/Purchase-Order" />

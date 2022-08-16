@@ -4,6 +4,8 @@
 
 This PnP template contains a SharePoint Syntex Document Understanding model used to classify Trade Confirmations.
 
+![Trade Confirmation](assets/training-file-example.png)
+
 The sample features the following:
 
 - Classifier
@@ -36,6 +38,8 @@ Invoke-PnPSiteTemplate -Path .\TradeConfirmation.pnp
 
 ## Sample
 
+You can find the model source code including training files here: [/models/Trade-Confirmation](https://github.com/pnp/syntex-samples/tree/main/models/Trade-Confirmation)
+
 Solution|Author(s)
 --------|---------
 TradeConfirmation.pnp| [James Eccles](https://github.com/jameseccles)
@@ -51,4 +55,4 @@ Version|Date|Comments
 
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-<img src="https://telemetry.sharepointpnp.com/syntex-samples/samples/Trade Confirmation" />
+<img src="https://telemetry.sharepointpnp.com/syntex-samples/models/Trade-Confirmation" />
