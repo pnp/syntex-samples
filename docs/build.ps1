@@ -7,8 +7,8 @@ $foldersToMoveToDocs = "articles","contributing","models","scenario-samples","sc
 foreach($folder in $foldersToMoveToDocs)
 {
 
-  New-Item -Path ./main/docs -Name $folder -ItemType "directory"
-  copy-item -Force ./main/$folder/* -Destination ./main/docs/$folder -Recurse
+  New-Item -Path ./main/docs -Name $folder -ItemType "directory" -Force
+  Copy-Item -Force ./main/$folder/* -Destination ./main/docs/$folder -Recurse
 
 }
 <#
