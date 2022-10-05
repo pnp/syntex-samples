@@ -2,7 +2,7 @@
 
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version 2.0
-
+Get-Location
 $foldersToMoveToDocs = "articles","contributing","models","scenario-samples","scripts","site-templates"
 foreach($folder in $foldersToMoveToDocs)
 {
