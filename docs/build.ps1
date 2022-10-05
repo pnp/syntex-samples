@@ -2,14 +2,14 @@
 
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version 2.0
-Get-Location
+
 $foldersToMoveToDocs = "articles","contributing","models","scenario-samples","scripts","site-templates"
 foreach($folder in $foldersToMoveToDocs)
 {
 
-  $item = New-Item -Path ./main/docs -Name $folder -ItemType Directory -Force -WhatIf
-  $item
-  Copy-Item -Force ./main/$folder/* -Destination ./main/docs/$folder -Recurse -WhatIf
+  New-Item -Path ./main/docs -Name $folder -ItemType Directory -Force
+
+  Copy-Item -Force ./main/$folder/* -Destination ./main/docs/$folder -Recurse
 
 }
 <#
