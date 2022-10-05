@@ -6,11 +6,10 @@ Set-StrictMode -Version 2.0
 $foldersToMoveToDocs = "articles","contributing","models","scenario-samples","scripts","site-templates"
 foreach($folder in $foldersToMoveToDocs)
 {
+  Write-Output
+  New-Item -Path ../main/docs -Name $folder -ItemType Directory -Force
 
-  New-Item -Path ./main/docs -Name $folder -ItemType Directory -Force -WhatIf
-  #New-Item -Path (Get-Location).Path -Name $folder -ItemType Directory -Force
-
-  Copy-Item -Force ./main/$folder/* -Destination ./main/docs/$folder -Recurse
+  Copy-Item -Force ../main/$folder/* -Destination ./main/docs/$folder -Recurse
 
 }
 <#
