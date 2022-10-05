@@ -1,0 +1,14 @@
+- name: Home
+  href: index.md
+- name: Articles
+  href: articles/index.md
+- name: Models
+  href: models/index.md
+- name: Scenario Samples
+  href: scenario-samples/README.md
+- name: Site Templates
+  href: site-templates/README.md
+- name: Scripts
+  href: scripts/README.md
+- name: Contributing
+  href: contributing/
