@@ -1,0 +1,1314 @@
+{
+  "homepages": [],
+  "source_base_path": "/home/runner/work/syntex-samples/syntex-samples/main/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Deploying-Models.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Deploying-Models.html",
+          "hash": "W2bfvgSbT8N4aeJaN6So1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Exporting-Models.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Exporting-Models.html",
+          "hash": "gik4v3gw6Yj/S7XeAYJL2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/index.html",
+          "hash": "OB6iP/VrmwQREKO4GbZlsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "ZZWYrCFv+tNbRwOZSXO2iQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "contributing/readme.md",
+      "output": {
+        ".html": {
+          "relative_path": "contributing/readme.html",
+          "hash": "XecIzTetwjvdXjlP+AqZeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "contributing/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "contributing/toc.html",
+          "hash": "aB9NakbcW5BI36nPeFJIUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "9FjBdga4sJJfpv6bhgPtgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "models/Aviation-Incident-Report/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "models/Aviation-Incident-Report/README.html",
+          "hash": "QFmqhpSZaIUnFJ2yb4hFww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "models/Aviation-Incident-Report/assets/training-file-example.png",
+      "output": {
+        "resource": {
+          "relative_path": "models/Aviation-Incident-Report/assets/training-file-example.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "models/Benefit-Change/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "models/Benefit-Change/README.html",
+          "hash": "D0OLLZVFO+66mhy/6henrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "models/Benefit-Change/assets/training-file-example.png",
+      "output": {
+        "resource": {
+          "relative_path": "models/Benefit-Change/assets/training-file-example.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "models/Contract-Notice/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "models/Contract-Notice/README.html",
+          "hash": "dSNeVJ1c816FYcOLqMKUCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "models/Contract-Notice/assets/training-file-example.png",
+      "output": {
+        "resource": {
+          "relative_path": "models/Contract-Notice/assets/training-file-example.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "models/Purchase-Order/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "models/Purchase-Order/README.html",
+          "hash": "EdCWRTKOtyki9LgH8WWcvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "models/Purchase-Order/assets/training-file-example.png",
+      "output": {
+        "resource": {
+          "relative_path": "models/Purchase-Order/assets/training-file-example.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "models/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "models/README.html",
+          "hash": "cEbiPZ0Bxn9XaCI72tHKpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "models/Refinement-Rules-Example/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "models/Refinement-Rules-Example/README.html",
+          "hash": "izHpyI1EUmqCgbdZ1ftVTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "models/Refinement-Rules-Example/assets/training-file-example.png",
+      "output": {
+        "resource": {
+          "relative_path": "models/Refinement-Rules-Example/assets/training-file-example.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "models/Services-Agreement/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "models/Services-Agreement/README.html",
+          "hash": "96nFBZ7vbPuucm7mfweQkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "models/Services-Agreement/assets/training-file-example.png",
+      "output": {
+        "resource": {
+          "relative_path": "models/Services-Agreement/assets/training-file-example.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "models/Trade-Confirmation/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "models/Trade-Confirmation/README.html",
+          "hash": "RqGz1fo75YjL3BAU3XqQJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "models/Trade-Confirmation/assets/training-file-example.png",
+      "output": {
+        "resource": {
+          "relative_path": "models/Trade-Confirmation/assets/training-file-example.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "models/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "models/toc.html",
+          "hash": "S3sHqwRFpOD7orWryO89Ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "scenario-samples/Contracts-Management/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "scenario-samples/Contracts-Management/README.html",
+          "hash": "ll5SFvsqMIb0tlM1vNenGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "scenario-samples/Invoice-Processing/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "scenario-samples/Invoice-Processing/README.html",
+          "hash": "rM+mKD6xoIq15jlaCxvGhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Invoice-Processing/assets/1-Process.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Invoice-Processing/assets/1-Process.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Invoice-Processing/assets/10-InvoiceLinesVariable.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Invoice-Processing/assets/10-InvoiceLinesVariable.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Invoice-Processing/assets/11-PowerAppConfig.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Invoice-Processing/assets/11-PowerAppConfig.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Invoice-Processing/assets/12-PowerAppConfigDataConnections.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Invoice-Processing/assets/12-PowerAppConfigDataConnections.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Invoice-Processing/assets/2-Schema.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Invoice-Processing/assets/2-Schema.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Invoice-Processing/assets/3-InvoicesLibrary.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Invoice-Processing/assets/3-InvoicesLibrary.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Invoice-Processing/assets/4-InvoiceLinesList.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Invoice-Processing/assets/4-InvoiceLinesList.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Invoice-Processing/assets/5-InvoiceReview-Details.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Invoice-Processing/assets/5-InvoiceReview-Details.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Invoice-Processing/assets/6-InvoiceReview-LineItems.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Invoice-Processing/assets/6-InvoiceReview-LineItems.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Invoice-Processing/assets/7-InvoiceReview-Approvals.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Invoice-Processing/assets/7-InvoiceReview-Approvals.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Invoice-Processing/assets/8-SiteCollectionVariable.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Invoice-Processing/assets/8-SiteCollectionVariable.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Invoice-Processing/assets/9-LibraryVariable.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Invoice-Processing/assets/9-LibraryVariable.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Invoice-Processing/sourcecode/Assets/Images/Diego.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Invoice-Processing/sourcecode/Assets/Images/Diego.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Invoice-Processing/sourcecode/Assets/Images/GreenCheck.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Invoice-Processing/sourcecode/Assets/Images/GreenCheck.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Invoice-Processing/sourcecode/Assets/Images/GreenCheckTransparent.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Invoice-Processing/sourcecode/Assets/Images/GreenCheckTransparent.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Invoice-Processing/sourcecode/Assets/Images/Rotate.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Invoice-Processing/sourcecode/Assets/Images/Rotate.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "scenario-samples/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "scenario-samples/README.html",
+          "hash": "CK9G89HE7Tkvmsll+IK95w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "scenario-samples/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "scenario-samples/toc.html",
+          "hash": "cnHTKlDjAeEv5jnBjCoZcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "scripts/Explanations/Add-SyntexPhraseExplanation/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "scripts/Explanations/Add-SyntexPhraseExplanation/README.html",
+          "hash": "nDeft72Ul3TE4T+wAMQ79g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "scripts/Explanations/Add-SyntexPhraseExplanationFromTermSet/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "scripts/Explanations/Add-SyntexPhraseExplanationFromTermSet/README.html",
+          "hash": "p2a9f9GWtARRGDOCmuOCHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "scripts/Explanations/Add-SyntexRegExExplanation/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "scripts/Explanations/Add-SyntexRegExExplanation/README.html",
+          "hash": "gKrRNi+Br+TY9NP5vf/V2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "scripts/Explanations/Get-SyntexSavedExplanation/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "scripts/Explanations/Get-SyntexSavedExplanation/README.html",
+          "hash": "gP59qBLZZH+3+fRMb/a2Lw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "scripts/Processing/Request-SyntexClassifyAndExtractBasedOnProperty/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "scripts/Processing/Request-SyntexClassifyAndExtractBasedOnProperty/README.html",
+          "hash": "+nR5dYZPg+jGfi+g6bRFNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "scripts/Publishing/Publish-SyntexModelBulk/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "scripts/Publishing/Publish-SyntexModelBulk/README.html",
+          "hash": "JMBVT1R9PVrewDk+Mj/sfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "scripts/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "scripts/README.html",
+          "hash": "g1oFbIIh6AsYYOQKsTwOlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "scripts/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "scripts/toc.html",
+          "hash": "q7klK7s7VUs5QVv3DtjCDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "site-templates/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "site-templates/README.html",
+          "hash": "NsFuy9H2hyB0YGCeJ6mGHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "site-templates/SyntexContentCenter/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "site-templates/SyntexContentCenter/README.html",
+          "hash": "QJljEbP018S87UakGNrshg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Home/2190449321Group 631896.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Home/2190449321Group 631896.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Home/2320958437Group 12165.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Home/2320958437Group 12165.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Home/3054880970Group 631903.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Home/3054880970Group 631903.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Home/3195355610Group 631896.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Home/3195355610Group 631896.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Home/3501272435Group 12163.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Home/3501272435Group 12163.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Home/3656803952Group 12191.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Home/3656803952Group 12191.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Home/3791861238Group 631897.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Home/3791861238Group 631897.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Home/4112422272Group 12165.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Home/4112422272Group 12165.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Learn-about-model-types/1361505346-Group-3467063.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Learn-about-model-types/1361505346-Group-3467063.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Learn-about-model-types/1864842146-MicrosoftTeams-image--4-.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Learn-about-model-types/1864842146-MicrosoftTeams-image--4-.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Learn-about-model-types/1992111033-MicrosoftTeams-image--5-.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Learn-about-model-types/1992111033-MicrosoftTeams-image--5-.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Learn-about-model-types/2540279459-Group-631903.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Learn-about-model-types/2540279459-Group-631903.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Learn-about-model-types/2673736575-lookbook-model-types-x400.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Learn-about-model-types/2673736575-lookbook-model-types-x400.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Learn-about-model-types/3753132100-Group-3467049.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Learn-about-model-types/3753132100-Group-3467049.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Learn-about-model-types/453689609-Group-3467062.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Learn-about-model-types/453689609-Group-3467062.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Learn-about-model-types/774301915-Group-3467063.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Learn-about-model-types/774301915-Group-3467063.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/125850436-Group-3467069.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/125850436-Group-3467069.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/1277592163-Group-3467068.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/1277592163-Group-3467068.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/130116461-Group-3467060.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/130116461-Group-3467060.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/1582569402-Group-3467057.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/1582569402-Group-3467057.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/2570176316-Group-3467060.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/2570176316-Group-3467060.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/2711663070-Group-3467062.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/2711663070-Group-3467062.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/2890040151-Group-3467060.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/2890040151-Group-3467060.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/29330367-Group-3467057.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/29330367-Group-3467057.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/3123856842-Group-3467060.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/3123856842-Group-3467060.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/3532916296-Group-3467056.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/3532916296-Group-3467056.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/3589446107-Group-3467068.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/3589446107-Group-3467068.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/3640791882-Screen-Shot-2021-09-23-at-1.43.42-PM.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/3640791882-Screen-Shot-2021-09-23-at-1.43.42-PM.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/3862518044-Group-3467064.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/3862518044-Group-3467064.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/3878540199-Group-3467068.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/3878540199-Group-3467068.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/4010892209-Group-3467066.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/4010892209-Group-3467066.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/4205381681-Group-3467068.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/4205381681-Group-3467068.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/910915891-Group-3467062.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Streamline-everyday-processes-and-tasks/910915891-Group-3467062.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Syntex-in-6-simple-steps/2241989242-newnew.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Syntex-in-6-simple-steps/2241989242-newnew.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Syntex-in-6-simple-steps/2345948231-Group-631897.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Syntex-in-6-simple-steps/2345948231-Group-631897.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Syntex-in-6-simple-steps/2760401404-image-36.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Syntex-in-6-simple-steps/2760401404-image-36.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Syntex-in-6-simple-steps/2813616501-new.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Syntex-in-6-simple-steps/2813616501-new.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Syntex-in-6-simple-steps/3167911437-Group-631897.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Syntex-in-6-simple-steps/3167911437-Group-631897.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Syntex-in-6-simple-steps/3740807277-Group-631897.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Syntex-in-6-simple-steps/3740807277-Group-631897.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Syntex-in-6-simple-steps/772401792-Group-631897.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Syntex-in-6-simple-steps/772401792-Group-631897.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Syntex-in-6-simple-steps/944098738-Group-631897.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Syntex-in-6-simple-steps/944098738-Group-631897.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Syntex-in-6-simple-steps/963385492-Group-631897.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/SitePages/Syntex-in-6-simple-steps/963385492-Group-631897.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/__sitelogo__Asset 1.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/Source/SiteAssets/__sitelogo__Asset 1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/contentcenter-lookbook-frontpage.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/contentcenter-lookbook-frontpage.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContentCenter/contentcenter-lookbook-preview.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContentCenter/contentcenter-lookbook-preview.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "site-templates/SyntexContentCenter/instructions.md",
+      "output": {
+        ".html": {
+          "relative_path": "site-templates/SyntexContentCenter/instructions.html",
+          "hash": "eRJi87eC/KVHdUb6FC2xjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "site-templates/SyntexContentCenter/provisioning.md",
+      "output": {
+        ".html": {
+          "relative_path": "site-templates/SyntexContentCenter/provisioning.html",
+          "hash": "vdUIZeyo8srEGr+F297L1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContractsManagement/ContractsManagement-lookbook-frontpage.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContractsManagement/ContractsManagement-lookbook-frontpage.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContractsManagement/ContractsManagement-lookbook-preview.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContractsManagement/ContractsManagement-lookbook-preview.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "site-templates/SyntexContractsManagement/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "site-templates/SyntexContractsManagement/README.html",
+          "hash": "kI0TyRzXI/1ZgN0tVUjADg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContractsManagement/Source/SiteAssets/__rectSitelogo__CST.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContractsManagement/Source/SiteAssets/__rectSitelogo__CST.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "site-templates/SyntexContractsManagement/Source/SiteAssets/__sitelogo__CST.png",
+      "output": {
+        "resource": {
+          "relative_path": "site-templates/SyntexContractsManagement/Source/SiteAssets/__sitelogo__CST.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "site-templates/SyntexContractsManagement/instructions.md",
+      "output": {
+        ".html": {
+          "relative_path": "site-templates/SyntexContractsManagement/instructions.html",
+          "hash": "ytJ94r+bAF00ysQxTnWfxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "site-templates/SyntexContractsManagement/prerequirement-SyntexContractsManagement.md",
+      "output": {
+        ".html": {
+          "relative_path": "site-templates/SyntexContractsManagement/prerequirement-SyntexContractsManagement.html",
+          "hash": "PeTPTAss3OQCt976iVtzOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "site-templates/SyntexContractsManagement/provisioning.md",
+      "output": {
+        ".html": {
+          "relative_path": "site-templates/SyntexContractsManagement/provisioning.html",
+          "hash": "pBpMLWw6DjXblZ8nrAiHtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "site-templates/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "site-templates/toc.html",
+          "hash": "TbFqanEESmuigyrhvAXmGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "TUdlQ7g8XUu5znKP54oHPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 31,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

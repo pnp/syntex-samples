@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Invoice Automation using the SharePoint Syntex | PnP Syntex Samples </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Invoice Automation using the SharePoint Syntex | PnP Syntex Samples ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    <meta name="description" content="This repository contains community samples that demonstrate different usage patterns and templates for Microsoft SharePoint Syntex.">
+    <link rel="shortcut icon" href="https://c.s-microsoft.com/favicon.ico?v2">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    <meta property="docfx:newtab" content="true">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <!--
+        <a class="navbar-brand" href="../../index.html">
+          <img id="logo" class="svg" src="../../logo.svg" alt="" >
+        </a>
+        -->
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <label class="glyphicon glyphicon-search" for="search-query"></label>
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+                  <div class="contribution-panel mobile-hide pull-right">
+                      <a href="https://github.com/pnp/syntex-samples/blob/main/docs/scenario-samples/Invoice-Processing/README.md/#L1" title="Improve this Doc" class="improve-doc-lg"><i class="glyphicon glyphicon-pencil"></i></a>
+                  </div>
+                    <h1 id="invoice-automation-using-the-sharepoint-syntex">Invoice Automation using the SharePoint Syntex</h1>
+
+<p>Invoice processing is something that every company does, but many are still doing it manually and is very labor intensive.  Not anymore!  I'll show you how to use the new &quot;Invoice processing template&quot; in SharePoint Syntex to automatically capture invoice header information and save it to a SharePoint document library.  We’ll then use AI Builder to extract the invoice line-item information and save it to a SharePoint List.  Finally, Power Apps will allow you to review and complete the processing so it can be integrated with the accounting LOB application.</p>
+<h2 id="process-overview">Process Overview</h2>
+<p>Invoices come in several different ways.  Ideally, they would be electronic, if not most scanners/copiers have integration into SharePoint that makes the capture process easy to accomplish.  Here is a typical process overview for most organizations.</p>
+<p><img src="assets/1-Process.png" alt="Alt text" title="Process Overview"></p>
+<h2 id="invoice-review">Invoice Review</h2>
+<p>Once the metadata has been captured using SharePoint Syntex and AI Builder, PowerApps will display this information to the user in a clean, easy to use format.  Accounts Payable can use this to provide additional accounting information or assign approvers.  It can be easily modified to accommodate your business process.</p>
+<h3 id="invoice-review-details">Invoice review details</h3>
+<p><img src="assets/5-InvoiceReview-Details.png" alt="Alt text" title="Invoice review details"></p>
+<h3 id="invoice-review-line-items">Invoice review line items</h3>
+<p><img src="assets/6-InvoiceReview-LineItems.png" alt="Alt text" title="Invoice review Line Items"></p>
+<h3 id="invoice-approval-history">Invoice approval history</h3>
+<p><img src="assets/7-InvoiceReview-Approvals.png" alt="Alt text" title="Invoice Approvals"></p>
+<h2 id="sharepoint-schema">SharePoint Schema</h2>
+<p>To get things started, we need to configure out content types and SharePoint information architecture to accommodate capturing the invoice “header” information, typically located at the top that has non-repeating items such as vendor name, invoice number, date due etc.<br>
+We also need a “line items” list to hold each itemized item that has been purchased.  A typical schema should resemble this:</p>
+<p><img src="assets/2-Schema.png" alt="Alt text" title="Schema"></p>
+<p>Create the following library and list for this solution:</p>
+<h3 id="invoices-library">Invoices Library</h3>
+<p><img src="assets/3-InvoicesLibrary.png" alt="Alt text" title="Invoices Library"></p>
+<h3 id="invoice-lines-list">Invoice Lines List</h3>
+<p><img src="assets/4-InvoiceLinesList.png" alt="Alt text" title="Invoice Lines List"></p>
+<p>A few things to keep in mind:</p>
+<ul>
+<li>There should be a content type created for each list, we’ll need this later when configuring the search experience.  It’s best to do this in the SharePoint Admin Center -&gt; Content Services -&gt; Content Type Gallery and then deploy it to the hub the library/list is in.</li>
+<li>The relationship between Invoices and Line Items is a 1:many relationship where the InvoiceID column is the SharePoint ID in the Invoices list.</li>
+</ul>
+<h1 id="solution-assets">Solution Assets</h1>
+<p>The assets for the solution are in the /assets folder.  The .zip file contains the Power Platform components while the Invoices.classifier contains the Invoices prebuilt model that can be deployed to your Content Center.</p>
+<h2 id="deploy-the-power-platform-solutions">Deploy the Power Platform solutions</h2>
+<p>The invoice automation solution has been packed in a Power Platform solution file (/assets .zip file) that has all the components necessary to properly deploy it in your environment.  This guide will help you configure it properly.</p>
+<ol>
+<li>Navigate to Power Automate in your tenant -&gt; Solutions and select the Import button.</li>
+<li>Select the .zip file that represents the Invoices solution. Once imported you will see a success message.</li>
+</ol>
+<h2 id="configure-the-solution">Configure the solution</h2>
+<p>Once the solution has been successfully imported, you will see it in the list of Solutions in Power Automate.  Click into the solution and configure the following Environment Variables:</p>
+<ul>
+<li><p>SiteCollection – select the connection and add the site collection that will contain the Invoices Library and list.</p>
+<p><img src="assets/8-SiteCollectionVariable.png" alt="Alt text" title="Site Collection Variable"></p>
+</li>
+<li><p>Invoice Library – Select a connection and the library that will contain the invoice documents.</p>
+<p><img src="assets/9-LibraryVariable.png" alt="Alt text" title="Invoice Library Variable"></p>
+</li>
+<li><p>Invoice Lines – Select a connection and the list that will contain the invoice line items.</p>
+<p><img src="assets/10-InvoiceLinesVariable.png" alt="Alt text" title="Invoice Lines Variable"></p>
+</li>
+</ul>
+<h2 id="configure-the-power-app">Configure the Power App</h2>
+<p>The Power App in the solution has 2 data connections to the Invoices library and Invoice Lines list.</p>
+<ul>
+<li><p>Within the solution, Edit the Canvas App</p>
+<p><img src="assets/11-PowerAppConfig.png" alt="Alt text" title="PowerAppConfig"></p>
+</li>
+<li><p>Navigate to the Data Connections tab and delete and re-add the data connections to the Invoices and Invoice Lines objects in SharePoint.</p>
+<p><img src="assets/12-PowerAppConfigDataConnections.png" alt="Alt text" title="PowerAppConfigDataSources"></p>
+</li>
+<li><p>Save and test the app to ensure it’s retrieving the invoice and lines information.</p>
+</li>
+</ul>
+<h2 id="import-the-invoices-syntex-model">Import the Invoices Syntex Model</h2>
+<p>The pre-built invoices model in Syntex is used to process the header information of the invoice.  The .classifier file should be uploaded to your Syntex content center and then deployed to the Invoices document library.</p>
+<img src="https://telemetry.sharepointpnp.com/powerapps-samples/samples/InvoiceProcessing">
+</article>
+          </div>
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
+          </div>        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Syntex Samples<br>Generated by <strong><a href='https://dotnet.github.io/docfx' alt='Doc FX Website'>DocFX</a></strong> with <strong><a href='https://ovasquez.github.io/docfx-material' alt='DocFx Material Theme'>Material UI</a></strong></span>
+            
+          </div>
+        </div>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>  </body>
+</html>
