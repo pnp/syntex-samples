@@ -1,0 +1,70 @@
+{
+"$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+"type": "AdaptiveCard",
+"version": "1.0",
+"body": [
+    {
+    "type": "TextBlock",
+    "text": "Contract approval request",
+    "size": "large",
+    "weight": "bolder",
+     "wrap": true
+    },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "FactSet",
+                    "spacing": "Large",
+                    "facts": [
+                        {
+                            "title": "Client",
+                            "value": "@{triggerOutputs()?['body/Client']}"
+                        },
+                        {
+                            "title": "Contractor",
+                            "value": "@{triggerOutputs()?['body/Contractor']}"
+                        },
+                        {
+                            "title": "Fee amount",
+                            "value": "@{triggerOutputs()?['body/FeeAmount']}"
+                        },
+                        {
+                            "title": "Date created",
+                            "value": "@{triggerOutputs()?['body/Modified']} "
+                        },
+                        {
+                            "title": "Link",
+                            "value": "[@{triggerOutputs()?['body/{FilenameWithExtension}']}](@{triggerOutputs()?['body/{Link}']})"
+                        }
+                    ]
+                }
+            ]
+         },
+    {
+    "type": "TextBlock",
+    "text": "Comment:"
+    },
+        {
+            "type": "Input.Text",
+            "placeholder": "Enter comments",
+            "id": "acComments"
+        }
+],
+"actions": [
+    {
+    "type": "Action.Submit",
+    "title": "Approve",
+    "data": {
+        "x": "Approve"
+    }
+    },
+    {
+    "type": "Action.Submit",
+    "title": "Reject",
+    "data": {
+        "x": "Reject"
+    }
+    }
+]
+}

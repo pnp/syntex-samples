@@ -1,0 +1,7 @@
+- name: Site Templates
+  href: README.md
+  items:
+  - name: Syntex Content Center
+    href: SyntexContentCenter/README.md
+  - name: Syntex Contracts Management
+    href: SyntexContractsManagement/README.md
