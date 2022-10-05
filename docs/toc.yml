@@ -3,7 +3,7 @@
 - name: Articles
   href: articles/index.md
 - name: Models
-  href: models/index.md
+  href: models/README.md
 - name: Scenario Samples
   href: scenario-samples/README.md
 - name: Site Templates
