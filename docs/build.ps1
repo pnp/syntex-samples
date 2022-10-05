@@ -6,7 +6,7 @@ Set-StrictMode -Version 2.0
 $foldersToMoveToDocs = "articles","contributing","models","scenario-samples","scripts","site-templates"
 foreach($folder in $foldersToMoveToDocs)
 {
-  Write-Output "Creating Directory $folder at ./main/docs"
+  Write-Output "Creating Directory $folder at ./main/docs "
   Get-Item -Path ./main/docs
   New-Item -Path ./main/docs -Name $folder -ItemType Directory -Force
 
