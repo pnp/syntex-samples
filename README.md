@@ -1,6 +1,6 @@
-# Microsoft SharePoint Syntex Samples
+# Microsoft Syntex Samples
 
-This repository contains community samples that demonstrate different usage patterns of Document Understanding models in Microsoft SharePoint Syntex.
+This repository contains community samples that demonstrate different usage patterns of Document Understanding models in Microsoft Syntex.
 
 > We do welcome community contributions (e.g. Syntex Document Understanding models) to the samples folder in this repository. Note that if you use contribute a model, please make sure that the training data submitted with your model can be publicly shared.
 
@@ -12,13 +12,13 @@ Please use following logic on submitting your questions or issues to right locat
 
 ## Additional resources
 
-* [Microsoft SharePoint Syntex overview](https://aka.ms/SharePointSyntex)
-* [Introduction to Microsoft SharePoint Syntex](https://docs.microsoft.com/en-us/microsoft-365/contentunderstanding/)
-* [SharePoint Syntex adoption guide](https://adoption.microsoft.com/sharepoint-syntex-adoption)
-* [SharePoint Lookbook - SharePoint Syntex designs now available](https://lookbook.microsoft.com/)
-* [SharePoint Syntex - filtered view of the M365 roadmap](https://aka.ms/SyntexRoadmap)
-* [SharePoint Syntex feedback portal](https://aka.ms/Syntex/Feedback)
-* [Microsoft Learn - SharePoint Syntex modules](https://docs.microsoft.com/en-us/learn/paths/syntex-get-started)
+* [Microsoft Syntex overview](https://aka.ms/SharePointSyntex)
+* [Introduction to Microsoft Syntex](https://docs.microsoft.com/en-us/microsoft-365/contentunderstanding/)
+* [Microsoft Syntex adoption guide](https://adoption.microsoft.com/sharepoint-syntex-adoption)
+* [SharePoint Lookbook - Syntex designs now available](https://lookbook.microsoft.com/)
+* [Microsoft Syntex - filtered view of the M365 roadmap](https://aka.ms/SyntexRoadmap)
+* [Microsoft Syntex feedback portal](https://aka.ms/Syntex/Feedback)
+* [Microsoft Learn - Syntex modules](https://docs.microsoft.com/en-us/learn/paths/syntex-get-started)
 
 ## Using the samples
 
