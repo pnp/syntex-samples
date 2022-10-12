@@ -1,4 +1,4 @@
-# Invoice Automation using the Microsoft Syntex 
+# Invoice Automation using Microsoft Syntex 
 
 Invoice processing is something that every company does, but many are still doing it manually and is very labor intensive.  Not anymore!  I'll show you how to use the new "Invoice processing template" in Microsoft Syntex to automatically capture invoice header information and save it to a SharePoint document library.  We’ll then use AI Builder to extract the invoice line-item information and save it to a SharePoint List.  Finally, Power Apps will allow you to review and complete the processing so it can be integrated with the accounting LOB application.
 
