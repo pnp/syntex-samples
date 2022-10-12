@@ -2,7 +2,7 @@
 
 ## Summary
 
-This PnP template contains a SharePoint Syntex Document Understanding model used to classify Aviation Incident Reports.
+This PnP template contains a Microsoft Syntex Document Understanding model used to classify Aviation Incident Reports.
 
 ![Aviation Incident Report Example](assets/training-file-example.png)
 
