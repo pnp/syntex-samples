@@ -1,4 +1,4 @@
-# Request file processing based on status of a metadata field#
+# Request file processing based on status of a metadata field
 
 ## Summary
 
