@@ -1,6 +1,6 @@
-# Invoice Automation using the SharePoint Syntex 
+# Invoice Automation using the Microsoft Syntex 
 
-Invoice processing is something that every company does, but many are still doing it manually and is very labor intensive.  Not anymore!  I'll show you how to use the new "Invoice processing template" in SharePoint Syntex to automatically capture invoice header information and save it to a SharePoint document library.  We’ll then use AI Builder to extract the invoice line-item information and save it to a SharePoint List.  Finally, Power Apps will allow you to review and complete the processing so it can be integrated with the accounting LOB application.
+Invoice processing is something that every company does, but many are still doing it manually and is very labor intensive.  Not anymore!  I'll show you how to use the new "Invoice processing template" in Microsoft Syntex to automatically capture invoice header information and save it to a SharePoint document library.  We’ll then use AI Builder to extract the invoice line-item information and save it to a SharePoint List.  Finally, Power Apps will allow you to review and complete the processing so it can be integrated with the accounting LOB application.
 
 ## Process Overview
 Invoices come in several different ways.  Ideally, they would be electronic, if not most scanners/copiers have integration into SharePoint that makes the capture process easy to accomplish.  Here is a typical process overview for most organizations. 
@@ -8,7 +8,7 @@ Invoices come in several different ways.  Ideally, they would be electronic, if 
 ![Alt text](assets/1-Process.png "Process Overview")
 
 ## Invoice Review
-Once the metadata has been captured using SharePoint Syntex and AI Builder, PowerApps will display this information to the user in a clean, easy to use format.  Accounts Payable can use this to provide additional accounting information or assign approvers.  It can be easily modified to accommodate your business process.
+Once the metadata has been captured using Microsoft Syntex and AI Builder, PowerApps will display this information to the user in a clean, easy to use format.  Accounts Payable can use this to provide additional accounting information or assign approvers.  It can be easily modified to accommodate your business process.
 
 ### Invoice review details
 ![Alt text](assets/5-InvoiceReview-Details.png "Invoice review details")
