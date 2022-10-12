@@ -6,13 +6,13 @@ This Microsoft Syntex powered site is designed to help you jump-start your contr
 
 The site also lets employees use preconfigured sample models to extract and classify information from documents, and to perform advanced searches to quickly find metadata within your agreements.
 
-![SharePoint Syntex Contracts Management Site](./ContractsManagement-lookbook-preview.png)
+![Microsoft Syntex Contracts Management Site](./ContractsManagement-lookbook-preview.png)
 
 ## Prerequisites
 
 The person doing the provisioning must meet the following pre-requisites:
 
-- Must be a tenant administrator of the tenant - also known as the Office 365 global administrator role - where the SharePoint Success Site will be provisioned.
+- Must be a tenant administrator of the tenant - also known as the Office 365 global administrator role - where the SharePoint Contracts Management Site will be provisioned.
 - The person provisioning the Microsoft Syntex Contracts Management Site must have a [Microsoft Syntex license](https://docs.microsoft.com/en-us/microsoft-365/contentunderstanding/syntex-licensing)
 
 ## What will be provisioned?
