@@ -1,4 +1,4 @@
-# Deploying SharePoint Syntex Models
+# Deploying Microsoft Syntex Models
 
 Microsoft Syntex Models typically are deployed to document libraries across your tenant. This can be done by using the Content Center site, but this can also be done using [PnP PowerShell](https://pnp.github.io/powershell/) as explained in this article. If you want to work with Microsoft Syntex models via code then check out the [Working with Microsoft Syntex](https://pnp.github.io/pnpcore/using-the-sdk/syntex-intro.html) support for [PnP Core SDK](https://aka.ms/pnp/coresdk).
 
