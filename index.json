@@ -111,8 +111,8 @@
   },
   "scripts/README.html": {
     "href": "scripts/README.html",
-    "title": "SharePoint Syntex PnP PowerShell Script Samples | PnP Syntex Samples",
-    "keywords": "SharePoint Syntex PnP PowerShell Script Samples Location for Syntex related PowerShell script samples using the PnP PowerShell module. More details on the PnP PowerShell module, including the SYntex related cmdlets, can be found here ."
+    "title": "Microsoft Syntex PnP PowerShell Script Samples | PnP Syntex Samples",
+    "keywords": "Microsoft Syntex PnP PowerShell Script Samples Location for Syntex related PowerShell script samples using the PnP PowerShell module. More details on the PnP PowerShell module, including the Syntex related cmdlets, can be found here ."
   },
   "site-templates/README.html": {
     "href": "site-templates/README.html",
