@@ -12,7 +12,7 @@ The site also lets employees use preconfigured sample models to extract and clas
 
 The person doing the provisioning must meet the following pre-requisites:
 
-- Must be a tenant administrator of the tenant - also known as the Office 365 global administrator role - where the SharePoint Contracts Management Site will be provisioned.
+- Must be a tenant administrator of the tenant - also known as the Office 365 global administrator role - where the Syntex Contracts Management Site will be provisioned.
 - The person provisioning the Microsoft Syntex Contracts Management Site must have a [Microsoft Syntex license](https://docs.microsoft.com/en-us/microsoft-365/contentunderstanding/syntex-licensing)
 
 ## What will be provisioned?
