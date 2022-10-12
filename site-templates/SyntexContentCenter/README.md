@@ -1,12 +1,12 @@
-# SharePoint Syntex content center
+# Microsoft Syntex content center
 
 ## Content intelligence for everyone!
   
-Use this site to learn more about SharePoint Syntex. We’ll introduce you to the tools you’ll need to create and train your own models. You can then use this site as a central content repository or as the control center for managing your own SharePoint Syntex models.
+Use this site to learn more about Microsoft Syntex. We’ll introduce you to the tools you’ll need to create and train your own models. You can then use this site as a central content repository or as the control center for managing your own Microsoft Syntex models.
 
-Models can be trained and evaluated using your own content. However, to apply the models to libraries, a license for SharePoint Syntex is required.
+Models can be trained and evaluated using your own content. However, to apply the models to libraries, a license for Microsoft Syntex is required.
 
-![SharePoint Syntex content center Site](./contentcenter-lookbook-preview.png)
+![Microsoft Syntex content center Site](./contentcenter-lookbook-preview.png)
 
 ## Prerequisites
 
@@ -19,7 +19,7 @@ The person doing the provisioning must meet the following pre-requisites:
 
 This template contains following elements which will be provisioned:
 
-- A SharePoint Syntex Content Center site holding the SharePoint Syntex Content Center Site content
+- A Microsoft Syntex Content Center site holding the Microsoft Syntex Content Center Site content
 
 ## Manual deployment using PnP PowerShell
 
