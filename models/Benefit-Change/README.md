@@ -2,7 +2,7 @@
 
 ## Summary
 
-This PnP template contains a SharePoint Syntex Document Understanding model used to classify Benefit Change notices.
+This PnP template contains a Microsoft Syntex Document Understanding model used to classify Benefit Change notices.
 
 ![Benefit Change Example](assets/training-file-example.png)
 
