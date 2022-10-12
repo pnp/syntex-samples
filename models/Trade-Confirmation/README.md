@@ -2,7 +2,7 @@
 
 ## Summary
 
-This PnP template contains a SharePoint Syntex Document Understanding model used to classify Trade Confirmations.
+This PnP template contains a Microsoft Syntex Document Understanding model used to classify Trade Confirmations.
 
 ![Trade Confirmation](assets/training-file-example.png)
 
