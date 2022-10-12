@@ -116,8 +116,8 @@
   },
   "site-templates/README.html": {
     "href": "site-templates/README.html",
-    "title": "Syntex Site Templates | PnP Syntex Samples",
-    "keywords": "Syntex Site Templates These templates use tenant level provisioning to create pre-populated Syntex related sites. You will need to have tenant level permissions to apply these templates."
+    "title": "Microsoft Syntex Site Templates | PnP Syntex Samples",
+    "keywords": "Microsoft Syntex Site Templates These templates use tenant level provisioning to create pre-populated Syntex related sites. You will need to have tenant level permissions to apply these templates."
   },
   "site-templates/SyntexContentCenter/instructions.html": {
     "href": "site-templates/SyntexContentCenter/instructions.html",
