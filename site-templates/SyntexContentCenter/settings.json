@@ -21,7 +21,7 @@
             {
                 "name": "SiteUrl",
                 "caption": "The Content Center Site URL",
-                "description": "The tenant relative URL of the SharePoint Syntex Content Center site",
+                "description": "The tenant relative URL of the Microsoft Syntex Content Center site",
                 "editor": "SiteUrl"
             }
         ],
@@ -30,18 +30,18 @@
             "siteDescriptor": "CONTENT CENTER",
             "descriptionParagraphs": [
                 "<b>Content intelligence for everyone!</b>",
-                "Use this site to learn more about SharePoint Syntex. We’ll introduce you to the tools you’ll need to create and train your own models. You can then use this site as a central content repository or as the control center for managing your own SharePoint Syntex models.",
-                "Models can be trained and evaluated using your own content. However, to apply the models to libraries, a license for SharePoint Syntex is required."
+                "Use this site to learn more about Microsoft Syntex. We’ll introduce you to the tools you’ll need to create and train your own models. You can then use this site as a central content repository or as the control center for managing your own SharePoint Syntex models.",
+                "Models can be trained and evaluated using your own content. However, to apply the models to libraries, a license for Microsoft Syntex is required."
             ],
             "previewImages": [
                 {
                     "type": "fullpage",
-                    "altText": "SharePoint Syntex Content Center",
+                    "altText": "Microsoft Syntex Content Center",
                     "url": "./contentcenter-lookbook-frontpage.png"
                 },
                 {
                     "type": "cardpreview",
-                    "altText": "SharePoint Syntex Content Center",
+                    "altText": "Microsoft Syntex Content Center",
                     "url": "./contentcenter-lookbook-preview.png"
                 }
             ],
@@ -95,13 +95,13 @@
                             "name": "Custom and pre-populated home page"
                         },
                         {
-                            "name": "Pre-populated pages to help users understand SharePoint Syntex capabilities and how to get started"
+                            "name": "Pre-populated pages to help users understand Microsoft Syntex capabilities and how to get started"
                         },
                         {
                             "name": "Example content for model activity to illustrate how the data is visualized"
                         },
                         {
-                            "name": "Additional resources to learn more about SharePoint Syntex"
+                            "name": "Additional resources to learn more about Microsoft Syntex"
                         }
                     ]
                 },
@@ -109,11 +109,11 @@
                     "name": "Resources",
                     "items": [
                         {
-                            "name": "Introduction to SharePoint Syntex",
+                            "name": "Introduction to Microsoft Syntex",
                             "url": "https://docs.microsoft.com/en-us/microsoft-365/contentunderstanding/document-understanding-overview"
                         },
                         {
-                            "name": "Licensing for SharePoint Syntex",
+                            "name": "Licensing for Microsoft Syntex",
                             "url": "https://docs.microsoft.com/en-us/microsoft-365/contentunderstanding/syntex-licensing"
                         }
                     ]
