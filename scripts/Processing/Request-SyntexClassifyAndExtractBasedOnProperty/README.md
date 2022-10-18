@@ -6,7 +6,9 @@ When a document understanding model is applied to alibrary, new files are classi
 
 This sample shows how to request processing for files that have a certain value. For example, this could be for files where a column called "Status" is set as "Active". It could also be used to run a model against files where metadata has not been entered or extracted previously.
 
-## Sample
+## Sample/Source Code
+
+You can find the sample source code here: [/scripts/Processing/Request-SyntexClassifyAndExtractBasedOnProperty](https://github.com/pnp/syntex-samples/tree/main/scripts/Processing/Request-SyntexClassifyAndExtractBasedOnProperty/)
 
 Solution|Author(s)
 --------|---------
