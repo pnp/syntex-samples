@@ -6,6 +6,10 @@
       href: Explanations/Add-SyntexPhraseExplanation/README.md
     - name: Add-SyntexPhraseExplanationFromTermSet
       href: Explanations/Add-SyntexPhraseExplanationFromTermSet/README.md
+    - name: Add-SyntexRegExExplanation
+      href: Explanations/Add-SyntexRegExExplanation/README.md
+    - name: Get-SyntexSavedExplanation
+      href: Explanations/Get-SyntexSavedExplanation/README.md   
 - name: Processing
   items:
     - name: Request-SyntexClassifyAndExtractBasedOnProperty
