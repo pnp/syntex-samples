@@ -8,7 +8,7 @@ This sample shows how to create a custom phrase list explanation template.
 
 ## Sample/Source Code
 
-You can find the sample source code here: [/scripts/Add-SyntexPhraseExplanation](https://github.com/pnp/syntex-samples/tree/main/scripts/Add-SyntexPhraseExplanation/)
+You can find the sample source code here: [/scripts/Explanations/Add-SyntexPhraseExplanation](https://github.com/pnp/syntex-samples/tree/main/scripts/Explanations/Add-SyntexPhraseExplanation/)
 
 Solution|Author(s)
 --------|---------
