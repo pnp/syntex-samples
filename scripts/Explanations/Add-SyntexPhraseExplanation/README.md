@@ -6,7 +6,9 @@ Custom explanation templates are stored in a list within a content center. Becau
 
 This sample shows how to create a custom phrase list explanation template.
 
-## Sample
+## Sample/Source Code
+
+You can find the sample source code here: [/scripts/Add-SyntexPhraseExplanation](https://github.com/pnp/syntex-samples/tree/main/scripts/Add-SyntexPhraseExplanation/)
 
 Solution|Author(s)
 --------|---------
