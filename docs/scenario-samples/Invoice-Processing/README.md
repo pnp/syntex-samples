@@ -67,7 +67,7 @@ The invoice automation solution has been packed in a Power Platform solution fil
 ## Configure the Power App
 
 The Power App in the solution has 2 data connections to the Invoices library and Invoice Lines list.  
-- Within the solution, Edit the Canvas App
+- Within the solution, Edit the Canvas App.
 
     ![Alt text](assets/11-PowerAppConfig.png "PowerAppConfig")
 
