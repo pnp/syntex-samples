@@ -6,7 +6,9 @@ Custom explanation templates are stored in a list within a content center. Becau
 
 This sample shows how to view all of the custom explanation templates that have been saved on a specific content center.
 
-## Sample
+## Sample/Source Code
+
+You can find the sample source code here: [/scripts/Explanations/Get-SyntexSavedExplanation](https://github.com/pnp/syntex-samples/tree/main/scripts/Explanations/Get-SyntexSavedExplanation/)
 
 Solution|Author(s)
 --------|---------
