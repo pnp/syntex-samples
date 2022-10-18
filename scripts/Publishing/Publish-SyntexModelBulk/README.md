@@ -6,7 +6,9 @@ When document understanding models are created on a content center, they need to
 
 This sample shows how to use a CSV file as an input to publish multiple models to various locations. This approach can be useful when you need to publish a high volume of models, or if there is a complex mapping of publishing required.
 
-## Sample
+## Sample/Source Code
+
+You can find the sample source code here: [/scripts/Publishing/Publish-SyntexModelBulk](https://github.com/pnp/syntex-samples/tree/main/scripts/Publishing/Publish-SyntexModelBulk/)
 
 Solution|Author(s)
 --------|---------
