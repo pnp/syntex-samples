@@ -1,10 +1,10 @@
-# Deploying SharePoint Syntex Models
+# Deploying Microsoft Syntex Models
 
-SharePoint Syntex Models typically are deployed to document libraries across your tenant. This can be done by using the Content Center site, but this can also be done using [PnP PowerShell](https://pnp.github.io/powershell/) as explained in this article. If you want to work with SharePoint Syntex models via code then check out the [Working with SharePoint Syntex](https://pnp.github.io/pnpcore/using-the-sdk/syntex-intro.html) support for [PnP Core SDK](https://aka.ms/pnp/coresdk).
+Microsoft Syntex Models typically are deployed to document libraries across your tenant. This can be done by using the Content Center site, but this can also be done using [PnP PowerShell](https://pnp.github.io/powershell/) as explained in this article. If you want to work with Microsoft Syntex models via code then check out the [Working with SharePoint Syntex](https://pnp.github.io/pnpcore/using-the-sdk/syntex-intro.html) support for [PnP Core SDK](https://aka.ms/pnp/coresdk).
 
 ## Listing the available models in a Content Center
 
-To get an overview of the models added to the current SharePoint Syntex Content Center site use the [Get-PnPSyntexModel](https://pnp.github.io/powershell/cmdlets/Get-PnPSyntexModel.html) cmdlet:
+To get an overview of the models added to the current Microsoft Syntex Content Center site use the [Get-PnPSyntexModel](https://pnp.github.io/powershell/cmdlets/Get-PnPSyntexModel.html) cmdlet:
 
 ```PowerShell
 Connect-PnPOnline -Url "https://contoso.sharepoint.com/sites/yourContentCenter"
