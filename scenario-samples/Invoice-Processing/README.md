@@ -2,6 +2,12 @@
 
 Invoice processing is something that every company does, but many are still doing it manually and is very labor intensive.  Not anymore!  I'll show you how to use the new "Invoice processing template" in SharePoint Syntex to automatically capture invoice header information and save it to a SharePoint document library.  We’ll then use AI Builder to extract the invoice line-item information and save it to a SharePoint List.  Finally, Power Apps will allow you to review and complete the processing so it can be integrated with the accounting LOB application.
 
+## Sample/Source Code
+
+You can find the sample source code here: [/scenario-samples/Invoice-Processing](https://github.com/pnp/syntex-samples/tree/main/scenario-samples/Invoice-Processing/)
+
+Also check https://github.com/pnp/powerapps-samples/tree/main/samples/InvoiceProcessing - more complete sample of the source of the solution.
+
 ## Process Overview
 Invoices come in several different ways.  Ideally, they would be electronic, if not most scanners/copiers have integration into SharePoint that makes the capture process easy to accomplish.  Here is a typical process overview for most organizations. 
 
