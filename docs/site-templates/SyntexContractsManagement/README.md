@@ -19,7 +19,7 @@ The person doing the provisioning must meet the following pre-requisites:
 
 This template contains following elements which will be provisioned:
 
-- A Microsoft Syntex Content Center site holding the Microsoft Syntex Contracts Management Site content
+- A Microsoft Syntex Content Center site holding the Microsoft Syntex Contracts Management Site content.
 
 ## Manual deployment using PnP PowerShell
 
