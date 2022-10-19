@@ -1,7 +1,0 @@
-- name: Scenario Samples
-  href: README.md
-  items:
-  - name: Contracts Management
-    href: Contracts-Management/README.md
-  - name: Invoice Processing
-    href: Invoice-Processing/README.md
