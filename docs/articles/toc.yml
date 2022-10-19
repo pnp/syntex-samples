@@ -1,7 +1,0 @@
-- name: Articles
-  href: index.md
-  items:
-  - name: Deploying Models
-    href: Deploying-Models.md
-  - name: Exporting Models
-    href: Exporting-Models.md
