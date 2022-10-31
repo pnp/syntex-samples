@@ -173,8 +173,28 @@ $(function () {
 $(function (){
     $("a.improve-doc-lg").each(function () {
         var link = $(this).attr('href');
+        if(link.indexOf("/main/docs/articles/") > -1){
+            link = link.replace("/main/docs/articles/","/main/articles/");
+            $(this).attr('href', link);
+        }
+        if(link.indexOf("/main/docs/contributing/") > -1){
+            link = link.replace("/main/docs/contributing/","/main/contributing/");
+            $(this).attr('href', link);
+        }
         if(link.indexOf("/main/docs/models/") > -1){
             link = link.replace("/main/docs/models/","/main/models/");
+            $(this).attr('href', link);
+        }
+        if(link.indexOf("/main/docs/scenario-samples/") > -1){
+            link = link.replace("/main/docs/scenario-samples/","/main/scenario-samples/");
+            $(this).attr('href', link);
+        }
+        if(link.indexOf("/main/docs/scripts/") > -1){
+            link = link.replace("/main/docs/scripts/","/main/scripts/");
+            $(this).attr('href', link);
+        }
+        if(link.indexOf("/main/docs/site-templates/") > -1){
+            link = link.replace("/main/docs/site-templates/","/main/site-templates/");
             $(this).attr('href', link);
         }
     });
