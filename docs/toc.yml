@@ -1,5 +1,5 @@
 - name: Home
-  href: index.md
+  href: README.md
 - name: Articles
   href: articles/index.md
 - name: Models
