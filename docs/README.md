@@ -56,4 +56,4 @@ This repository has adopted the [Microsoft Open Source Code of Conduct](https://
 
 > Sharing is caring!
 
-<img src="https://telemetry.sharepointpnp.com/syntex-samples/readme" />
+<img src="https://pnptelemetry.azurewebsites.net/syntex-samples/readme" />

@@ -4,4 +4,4 @@ Location for Syntex related PowerShell script samples using the PnP PowerShell m
 
 More details on the PnP PowerShell module, including the Syntex related cmdlets, can be found [here](https://pnp.github.io/powershell/).
 
-<img src="https://telemetry.sharepointpnp.com/syntex-samples/scripts/readme" />
+<img src="https://pnptelemetry.azurewebsites.net/syntex-samples/scripts/readme" />

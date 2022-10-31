@@ -6,4 +6,4 @@ Assets to replicate the solution desrcibed in the article [Manage contracts usin
 
 You can find the sample source code here: [/scenario-samples/Contracts-Management](https://github.com/pnp/syntex-samples/tree/main/scenario-samples/Contracts-Management/)
 
-<img src="https://telemetry.sharepointpnp.com/syntex-samples/scenario assets/contracts management" />
+<img src="https://pnptelemetry.azurewebsites.net/syntex-samples/scenario assets/contracts management" />

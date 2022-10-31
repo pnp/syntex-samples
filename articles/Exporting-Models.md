@@ -67,4 +67,4 @@ If you do not include the property "includeTrainingData", the default behavior i
 
 > NOTE: training data is required for a model to be editable when imported to a destination Content Center
 
-<img src="https://telemetry.sharepointpnp.com/syntex-samples/docs/exporting models" />
+<img src="https://pnptelemetry.azurewebsites.net/syntex-samples/docs/exporting models" />
