@@ -9,13 +9,13 @@
     "title": "Exporting Microsoft Syntex Models | PnP Syntex Samples",
     "keywords": "Exporting Microsoft Syntex Models Microsoft Syntex models can be exported as PnP templates, enabling reuse across Content Centers or tenants. Export all models in a Content Center To export all models in a Content Center into a single PnP template, use the following PnP PowerShell cmdlets: Connect-PnPOnline -Url \"https://contoso.sharepoint.com/sites/yourContentCenter\" Get-PnPSiteTemplate -Out MyModels.pnp -Handlers SyntexModels Export Specific Models To export specific models from a Content Center into a PnP template, use the following PnP PowerShell cmdlets: Connect-PnPOnline -Url \"https://contoso.sharepoint.com/sites/yourContentCenter\" Get-PnPSiteTemplate -Out MyModels.pnp -Configuration .\\extract.json The extract.json defines which models you want to export, allowing to specify model by name or id and optionally configuring to not extract training data Example- Specify model by name { \"$schema\": \"https://developer.microsoft.com/en-us/json-schemas/pnp/provisioning/202102/extract-configuration.schema.json\", \"persistAssetFiles\": true, \"handlers\": [ \"SyntexModels\" ], \"syntexModels\": { \"models\": [ { \"name\": \"Sample - benefits change notice.classifier\" } ] } } Example- Specify model by id { \"$schema\": \"https://developer.microsoft.com/en-us/json-schemas/pnp/provisioning/202102/extract-configuration.schema.json\", \"persistAssetFiles\": true, \"handlers\": [ \"SyntexModels\" ], \"syntexModels\": { \"models\": [ { \"id\": 3, \"excludeTrainingData\": true } ] } } If you do not include the property \"includeTrainingData\", the default behavior is to include. NOTE: training data is required for a model to be editable when imported to a destination Content Center"
   },
-  "articles/index.html": {
-    "href": "articles/index.html",
+  "articles/README.html": {
+    "href": "articles/README.html",
     "title": "Articles | PnP Syntex Samples",
     "keywords": "Articles Here you will find various articles, ranging from installing, upgrading, advanced topics and how to build the source code. Navigate the articles in the menu at the left."
   },
-  "contributing/readme.html": {
-    "href": "contributing/readme.html",
+  "contributing/README.html": {
+    "href": "contributing/README.html",
     "title": "I want to help 🙋‍♂️ | PnP Syntex Samples",
     "keywords": "I want to help 🙋‍♂️ If you want to join our team and help, then feel free to check the issue list for planned work or create an issue with sugggested improvements."
   },

@@ -50,11 +50,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/index.md",
+      "source_relative_path": "articles/README.md",
       "output": {
         ".html": {
-          "relative_path": "articles/index.html",
-          "hash": "OB6iP/VrmwQREKO4GbZlsg=="
+          "relative_path": "articles/README.html",
+          "hash": "DHBUDBJjsyldFgUQAHoezQ=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "ZZWYrCFv+tNbRwOZSXO2iQ=="
+          "hash": "XSSaA5uaO0falgSGhUFD5A=="
         }
       },
       "is_incremental": false,
@@ -74,11 +74,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "contributing/readme.md",
+      "source_relative_path": "contributing/README.md",
       "output": {
         ".html": {
-          "relative_path": "contributing/readme.html",
-          "hash": "XecIzTetwjvdXjlP+AqZeA=="
+          "relative_path": "contributing/README.html",
+          "hash": "OWZGG0/itn1mcJIIwRs1kA=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "contributing/toc.html",
-          "hash": "aB9NakbcW5BI36nPeFJIUw=="
+          "hash": "/WL+gWhCpoKsuZ7CbLJxzg=="
         }
       },
       "is_incremental": false,
@@ -1254,7 +1254,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "MBHZupAbxurHsBQlV+bUkg=="
+          "hash": "602f3KlH+5uvBJyRKh64Ew=="
         }
       },
       "is_incremental": false,
