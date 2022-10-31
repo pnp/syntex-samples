@@ -11,42 +11,42 @@
 					"*.md"
 				]
 			},
-		  {
-			"files": [
-			  "models/**.md",
-			  "models/**/**.md",
-			  "models/toc.yml",
-			  "toc.yml",
-			  "*.md"
-			]
-		  },
-		  {
-			"files": [
-			  "scenario-samples/**.md",
-			  "scenario-samples/**/**.md",
-			  "scenario-samples/toc.yml",
-			  "toc.yml",
-			  "*.md"
-			]
-		  },
-		  {
-			"files": [
-			  "site-templates/**.md",
-			  "site-templates/**/**.md",
-			  "site-templates/toc.yml",
-			  "toc.yml",
-			  "*.md"
-			]
-		  },
-		  {
-			"files": [
-			  "scripts/**.md",
-			  "scripts/**/**/**.md",
-			  "scripts/toc.yml",
-			  "toc.yml",
-			  "*.md"
-			]
-		  }
+			{
+				"files": [
+					"models/**.md",
+					"models/**/**.md",
+					"models/toc.yml",
+					"toc.yml",
+					"*.md"
+				]
+			},
+			{
+				"files": [
+					"scenario-samples/**.md",
+					"scenario-samples/**/**.md",
+					"scenario-samples/toc.yml",
+					"toc.yml",
+					"*.md"
+				]
+			},
+			{
+				"files": [
+					"site-templates/**.md",
+					"site-templates/**/**.md",
+					"site-templates/toc.yml",
+					"toc.yml",
+					"*.md"
+				]
+			},
+			{
+				"files": [
+					"scripts/**.md",
+					"scripts/**/**/**.md",
+					"scripts/toc.yml",
+					"toc.yml",
+					"*.md"
+				]
+			}
 		],
 		"resource": [
 			{
@@ -55,7 +55,7 @@
 					"models/**/**/*.png",
 					"scenario-samples/**/**/*.png",
 					"site-templates/**/**/*.png",
-					"scripts/**/**/*.png"						
+					"scripts/**/**/*.png"
 				]
 			}
 		],
@@ -97,4 +97,4 @@
 			"_disableBreadcrumb": true
 		}
 	}
-} 
+}
