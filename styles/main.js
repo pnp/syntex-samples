@@ -173,8 +173,8 @@ $(function () {
 $(function (){
     $("a.improve-doc-lg").each(function () {
         var link = $(this).attr('href');
-        if(link.indexOf("/dev/docs/demos/") > -1){
-            link = link.replace("/dev/docs/demos/","/dev/samples/");
+        if(link.indexOf("/main/docs/models/") > -1){
+            link = link.replace("/main/docs/models/","/main/models/");
             $(this).attr('href', link);
         }
     });
