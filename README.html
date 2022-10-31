@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Microsoft Syntex Samples | PnP Syntex Samples </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Microsoft Syntex Samples | PnP Syntex Samples ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    <meta name="description" content="This repository contains community samples that demonstrate different usage patterns and templates for Microsoft SharePoint Syntex.">
+    <link rel="shortcut icon" href="https://c.s-microsoft.com/favicon.ico?v2">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="">
+    <meta property="docfx:newtab" content="true">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <!--
+        <a class="navbar-brand" href="index.html">
+          <img id="logo" class="svg" src="logo.svg" alt="" >
+        </a>
+        -->
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <label class="glyphicon glyphicon-search" for="search-query"></label>
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+                  <div class="contribution-panel mobile-hide pull-right">
+                      <a href="https://github.com/pnp/syntex-samples/blob/main/docs/README.md/#L1" title="Improve this Doc" class="improve-doc-lg"><i class="glyphicon glyphicon-pencil"></i></a>
+                  </div>
+                    <h1 id="microsoft-syntex-samples">Microsoft Syntex Samples</h1>
+
+<p>This repository contains community samples that demonstrate different usage patterns of Document Understanding models in Microsoft Syntex.</p>
+<blockquote>
+<p>We do welcome community contributions (e.g. Syntex Document Understanding models) to the samples folder in this repository. Note that if you use contribute a model, please make sure that the training data submitted with your model can be publicly shared.</p>
+</blockquote>
+<h2 id="have-issues-or-questions">Have issues or questions?</h2>
+<p>Please use following logic on submitting your questions or issues to right location to ensure that they are noticed and addressed as soon as possible.</p>
+<ul>
+<li>You have issue on specific sample - use <a href="https://github.com/pnp/syntex-samples/issues">issue list in this repository</a>.</li>
+</ul>
+<h2 id="additional-resources">Additional resources</h2>
+<ul>
+<li><a href="https://aka.ms/SharePointSyntex">Microsoft Syntex overview</a></li>
+<li><a href="https://docs.microsoft.com/en-us/microsoft-365/contentunderstanding/">Introduction to Microsoft Syntex</a></li>
+<li><a href="https://adoption.microsoft.com/sharepoint-syntex-adoption">Microsoft Syntex adoption guide</a></li>
+<li><a href="https://lookbook.microsoft.com/">SharePoint Lookbook - Microsoft Syntex designs now available</a></li>
+<li><a href="https://aka.ms/SyntexRoadmap">Microsoft Syntex - filtered view of the M365 roadmap</a></li>
+<li><a href="https://aka.ms/Syntex/Feedback">Microsoft Syntex feedback portal</a></li>
+<li><a href="https://docs.microsoft.com/en-us/learn/paths/syntex-get-started">Microsoft Learn - Microsoft Syntex modules</a></li>
+</ul>
+<h2 id="using-the-samples">Using the samples</h2>
+<p>The samples in this repository contain both the Document Understanding model files, as well as the files used to train the model. Once imported, you will be able to use these models to process files, as well as view and edit the key model elements- the classifier and extractors.</p>
+<p>Samples are provided as PnP template, that should be imported to a Content Center site.</p>
+<p>For example, this can be done using <a href="https://pnp.github.io/powershell/">PnP PowerShell</a>:</p>
+<pre><code class="lang-powershell">Connect-PnPOnline -Url &quot;https://contoso.sharepoint.com/sites/yourContentCenter&quot;
+
+Invoke-PnPSiteTemplate -Path .\sampleModel.pnp
+</code></pre>
+<p>See the <a href="articles/Exporting-Models.html">Exporting Models</a> article for guidance on how to export Document Understanding models.</p>
+<p>Once a model has been imported in your SharePoint Syntex Content Center site you can review and update it to match your needs. If you want to further deploy the model then checkout the <a href="articles/Deploying-Models.html">Deploying Models</a> article to learn more.</p>
+<h2 id="authors">Authors</h2>
+<p>This repository's contributors are all community members who volunteered their time to share code samples. Work is done as an open source community project, which each sample contained in their own solution.</p>
+<h2 id="contributions">Contributions</h2>
+<p>These samples are direct from the feature teams, PnP core team (<a href="http://aka.ms/m365pnp">http://aka.ms/m365pnp</a>) or shared by the community. We welcome your input on issues and suggestions for new samples. If you have any questions, just let us know.</p>
+<h2 id="code-of-conduct">Code of Conduct</h2>
+<p>This repository has adopted the <a href="https://opensource.microsoft.com/codeofconduct/">Microsoft Open Source Code of Conduct</a>. For more information see the <a href="https://opensource.microsoft.com/codeofconduct/faq/">Code of Conduct FAQ</a> or contact <a href="mailto:opencode@microsoft.com">opencode@microsoft.com</a> with any additional questions or comments.</p>
+<h2 id="disclaimer">Disclaimer</h2>
+<p><strong>THESE SAMPLES ARE PROVIDED <em>AS IS</em> WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.</strong></p>
+<blockquote>
+<p>Sharing is caring!</p>
+</blockquote>
+<img src="https://telemetry.sharepointpnp.com/syntex-samples/readme">
+</article>
+          </div>
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
+          </div>        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Syntex Samples<br>Generated by <strong><a href='https://dotnet.github.io/docfx' alt='Doc FX Website'>DocFX</a></strong> with <strong><a href='https://ovasquez.github.io/docfx-material' alt='DocFx Material Theme'>Material UI</a></strong></span>
+            
+          </div>
+        </div>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>  </body>
+</html>

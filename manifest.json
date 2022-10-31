@@ -14,6 +14,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "pFMxzi2SBP/9VNu2c7OLMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/Deploying-Models.md",
       "output": {
         ".html": {
@@ -79,18 +91,6 @@
         ".html": {
           "relative_path": "contributing/toc.html",
           "hash": "aB9NakbcW5BI36nPeFJIUw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "index.md",
-      "output": {
-        ".html": {
-          "relative_path": "index.html",
-          "hash": "Nt8zpD87GLkf5O60O9Y0XA=="
         }
       },
       "is_incremental": false,
@@ -1254,7 +1254,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "TUdlQ7g8XUu5znKP54oHPA=="
+          "hash": "MBHZupAbxurHsBQlV+bUkg=="
         }
       },
       "is_incremental": false,
