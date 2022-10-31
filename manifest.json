@@ -98,6 +98,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "fdGKpq2Cns33fcReIjGbBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "models/Aviation-Incident-Report/README.md",
       "output": {
         ".html": {
@@ -1275,7 +1287,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 31,
+          "total_file_count": 32,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
