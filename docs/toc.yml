@@ -1,7 +1,7 @@
 - name: Home
   href: README.md
 - name: Articles
-  href: articles/index.md
+  href: articles/README.md
 - name: Models
   href: models/README.md
 - name: Scenario Samples
