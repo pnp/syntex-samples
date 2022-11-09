@@ -2,7 +2,7 @@
 
 ## Summary
 
-When a document understanding model is applied to alibrary, new files are classified at the time of upload. It is also possible to request on-demand processing. This could be for scenarios such as when the model has been updated, or the file modified. Using the library user interface it is possible to request processing for selected items, or for a folder's content. Through PowerShell it is possible to make the same requests, as well as processing an entire library.
+When a unstructured document processing model is applied to a library, new files are classified at the time of upload. It is also possible to request on-demand processing. This could be for scenarios such as when the model has been updated, or the file modified. Using the library user interface it is possible to request processing for selected items, or for a folder's content. Through PowerShell it is possible to make the same requests, as well as processing an entire library.
 
 This sample shows how to request processing for files that have a certain value. For example, this could be for files where a column called "Status" is set as "Active". It could also be used to run a model against files where metadata has not been entered or extracted previously.
 

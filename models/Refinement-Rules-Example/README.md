@@ -2,7 +2,7 @@
 
 ## Summary
 
-This PnP template contains a Microsoft Syntex Document Understanding model used to demonstrate the new refinement rules functionality that can be added to extractors.
+This PnP template contains a Microsoft Syntex unstructured document processing model used to demonstrate the new refinement rules functionality that can be added to extractors.
 Refinement rules are ran on the returned entity values from an extractor i.e remove duplicates, select first/last value or line etc.
 
 ![Refinement Rules Example](assets/training-file-example.png)

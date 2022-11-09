@@ -2,7 +2,7 @@
 
 ## Summary
 
-This PnP template contains a Microsoft Syntex Document Understanding model used to classify Services Agreements.
+This PnP template contains a Microsoft Syntex unstructured document Processing model used to classify Services Agreements.
 
 ![Services Agreement](assets/training-file-example.png)
 
