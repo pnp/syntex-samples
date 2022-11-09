@@ -1,8 +1,10 @@
 # Microsoft Syntex Samples
 
-This repository contains community samples that demonstrate different usage patterns of Document Understanding models in Microsoft Syntex.
+This repository contains community samples that demonstrate different usage patterns of unstructured document Processing models (formerly known as document understanding models) in Microsoft Syntex.
 
-> We do welcome community contributions (e.g. Syntex Document Understanding models) to the samples folder in this repository. Note that if you use contribute a model, please make sure that the training data submitted with your model can be publicly shared.
+> We do welcome community contributions (e.g. Syntex unstructured document processing models) to the samples folder in this repository. Note that if you use contribute a model, please make sure that the training data submitted with your model can be publicly shared.
+
+> **NOTE:** Other Syntex model types such as structured document processing models or freefom document processing models at this moment in time cannot be exported to a PnP template and shared here for others. 
 
 ## Have issues or questions?
 
@@ -12,9 +14,9 @@ Please use following logic on submitting your questions or issues to right locat
 
 ## Additional resources
 
-* [Microsoft Syntex overview](https://aka.ms/SharePointSyntex)
-* [Introduction to Microsoft Syntex](https://docs.microsoft.com/en-us/microsoft-365/contentunderstanding/)
-* [Microsoft Syntex adoption guide](https://adoption.microsoft.com/sharepoint-syntex-adoption)
+* [Microsoft Syntex overview](https://aka.ms/Syntex)
+* [Introduction to Microsoft Syntex](https://learn.microsoft.com/en-us/microsoft-365/contentunderstanding/)
+* [Microsoft Syntex adoption guide](https://adoption.microsoft.com/en-us/syntex/adoption/)
 * [SharePoint Lookbook - Syntex designs now available](https://lookbook.microsoft.com/)
 * [Microsoft Syntex - filtered view of the M365 roadmap](https://aka.ms/SyntexRoadmap)
 * [Microsoft Syntex feedback portal](https://aka.ms/Syntex/Feedback)
@@ -22,7 +24,7 @@ Please use following logic on submitting your questions or issues to right locat
 
 ## Using the samples
 
-The samples in this repository contain both the Document Understanding model files, as well as the files used to train the model. Once imported, you will be able to use these models to process files, as well as view and edit the key model elements- the classifier and extractors.
+The samples in this repository contain both the unstructured document processing model files, as well as the files used to train the model. Once imported, you will be able to use these models to process files, as well as view and edit the key model elements- the classifier and extractors.
 
 Samples are provided as PnP template, that should be imported to a Content Center site.
 
@@ -34,9 +36,9 @@ Connect-PnPOnline -Url "https://contoso.sharepoint.com/sites/yourContentCenter"
 Invoke-PnPSiteTemplate -Path .\sampleModel.pnp
 ```
 
-See the [Exporting Models](docs/Exporting-Models.md) article for guidance on how to export Document Understanding models.
+See the [Exporting Models](docs/Exporting-Models.md) article for guidance on how to export unstructured document processing models.
 
-Once a model has been imported in your SharePoint Syntex Content Center site you can review and update it to match your needs. If you want to further deploy the model then checkout the [Deploying Models](docs/Deploying-Models.md) article to learn more.
+Once a model has been imported in your Microsoft Syntex Content Center site you can review and update it to match your needs. If you want to further deploy the model then checkout the [Deploying Models](docs/Deploying-Models.md) article to learn more.
 
 ## Authors
 
