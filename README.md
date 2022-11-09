@@ -36,9 +36,9 @@ Connect-PnPOnline -Url "https://contoso.sharepoint.com/sites/yourContentCenter"
 Invoke-PnPSiteTemplate -Path .\sampleModel.pnp
 ```
 
-See the [Exporting Models](docs/Exporting-Models.md) article for guidance on how to export unstructured document processing models.
+See the [Exporting Models](articles/Exporting-Models.md) article for guidance on how to export unstructured document processing models.
 
-Once a model has been imported in your Microsoft Syntex Content Center site you can review and update it to match your needs. If you want to further deploy the model then checkout the [Deploying Models](docs/Deploying-Models.md) article to learn more.
+Once a model has been imported in your Microsoft Syntex Content Center site you can review and update it to match your needs. If you want to further deploy the model then checkout the [Deploying Models](articles/Deploying-Models.md) article to learn more.
 
 ## Authors
 
