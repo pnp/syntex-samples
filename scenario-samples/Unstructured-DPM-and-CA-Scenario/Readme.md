@@ -37,6 +37,7 @@ Before running the PowerShell script open the file with your preferred editor an
 - Variable **$SiteURL** to be url of the site to be used to add files and create documents.
 - Variable **$ContentCenterURL** to be the url of your Syntex content center. 
 - *Optionally update the variables **$LibraryNameSA** and **$LibraryNameCA** to use different library names*
+
 ![image](assets/3-DeployContentPS1.png)
 
 Save and execute the script.
@@ -53,10 +54,13 @@ The next step is to create the Syntex Content Assembly modern template. Currentl
 
 ### 1.	Create Modern Template
   Access the “Service Agreement” document library in your target site. 
+  
   Select "+ New" -> "Create Modern Template"
+  
   ![image](assets/4-CreateModernTemplate.png)
 
 ### 2.  Select “Service Agreement Contract.docx” as Template
+
   ![image](assets/5-UploadServiceAgreement.png)
 
 ### 3.  Create Placeholders
@@ -78,55 +82,58 @@ The next step is to create the Syntex Content Assembly modern template. Currentl
 
   ![image](assets/7-EmployeeName-1.png)
 
-  - Press “Next” button
+  Press “Next” button
   
   ![image](assets/7-EmployeeName-2.png)
 
-  - Select “Single line of text” and press “Save” button
+  Select “Single line of text” and press “Save” button
   
   ![image](assets/7-EmployeeName-3.png)
 
-  - Click “+ New field” to create “Change Date” field
+  Click “+ New field” to create “Change Date” field
   
   ![image](assets/8-ChangeDate-1.png)
 
   ![image](assets/8-ChangeDate-2.png)
 
-  - Select “September 15, 2017” in document text.
-  - Press “Confirm” button…
-  - Select “Date and time” as type
+  Select “September 15, 2017” in document text.
+  
+  Press “Confirm” button…
+  
+  Select “Date and time” as type
   
   ![image](assets/8-ChangeDate-3.png)
   
-  - Press “Save” button…
+  Press “Save” button…
 
-  - Click “+ New field” to create “Discount” field
+  Click “+ New field” to create “Discount” field
   
   ![image](assets/9-Discount-1.png)
 
-  - Select “8” in document text.
+  Select “8” in document text.
   
   ![image](assets/9-Discount-2.png)
 
-  - Press “Confirm” button…
-  - Select “Number” as type
+  Press “Confirm” button…
+  
+  Select “Number” as type
   
   ![image](assets/9-Discount-3.png)
 
 ### 4.	Publish Template
 
-  - Press “Publish” button in the top right hand corner to publish the template.
+  Press “Publish” button in the top right hand corner to publish the template.
   
   ![image](assets/10-PublishTemplate-1.png)
 
-  - Do not change the template name and press the “Publish” button one more time.
+  Do not change the template name and press the “Publish” button one more time.
   
   ![image](assets/10-PublishTemplate-2.png)
 
   ![image](assets/10-PublishTemplate-3.png)
 
 ### 5.	Check Result
-  - Now check that the “Service Agreement Contract” template is now available in “Service Agreement” document library
+  Now check that the “Service Agreement Contract” template is now available in “Service Agreement” document library
   
   ![image](assets/11-ServiceAgreementCATemplateInLibrary.png)
 
@@ -135,111 +142,111 @@ In this step you need to import **DocManagementMicrosoftSyntex_1_0_0_8.zip** as 
 **To do this remember that you need an Environment with Dataverse.**
 
 ### 1.	Import Solution
-  - Go to the [Power Platform admin centre](https://make.powerapps.com) & under the “Solution” section, click “Import Solution”
+  Go to the [Power Platform admin centre](https://make.powerapps.com) & under the “Solution” section, click “Import Solution”
   
   ![image](assets/12-ImportPPSolution-1.png)
 
 ### 2.	Select “DocManagementMicrosoftSyntex_1_0_0_8.zip”
-  - Select zip file and click “Next”
+  Select zip file and click “Next”
   
   ![image](assets/12-ImportPPSolution-2.png)
 
-  - Import this solution as **“Unmanaged”** because you will need to change some settings and configuration after the import 
+  Import this solution as **“Unmanaged”** because you will need to change some settings and configuration after the import 
   
   ![image](assets/12-ImportPPSolution-3.png)
 
 ### 3.	Configuring SharePoint settings (connection and url)
-  - Now you must select a valid SharePoint connection. If you don’t have a valid connection the wizard will help you to create a SPO connection
+  Now you must select a valid SharePoint connection. If you don’t have a valid connection the wizard will help you to create a SPO connection
   
   ![image](assets/12-ImportPPSolution-4.png)
 
   ![image](assets/12-ImportPPSolution-5.png)
 
-  - Click “Next”
+  Click “Next”
   
-  - Now you are able to select the correct SharePoint site URL and the “Contract Management Hub” document library
+  Now you are able to select the correct SharePoint site URL and the “Contract Management Hub” document library
   
   ![image](assets/12-ImportPPSolution-6.png)
 
-  - Click “Import” 
+  Click “Import” 
   
   ![image](assets/12-ImportPPSolution-7.png)
 
-  - Wait the process finish to import the solution.
+  Wait the process finish to import the solution.
   
   ![image](assets/12-ImportPPSolution-8.png)
 
 ## Modify Environment Variables
-  - Click on Solution to see all details
+  Click on Solution to see all details
 
   ![image](assets/13-ModifySolution-1.png)
 
 ### 1.	Modify “SharePointSiteURL” variable
-  - Edit the environment variable “SharePointSiteURL”
+  Edit the environment variable “SharePointSiteURL”
   
   ![image](assets/13-ModifySolution-2.png)
 
-  - Under “Current Site Value” click on “+ Add existing”
+  Under “Current Site Value” click on “+ Add existing”
   
   ![image](assets/13-ModifySolution-3.png)
 
-  - Select SPO target site for deployment
+  Select SPO target site for deployment
   
   ![image](assets/13-ModifySolution-4.png)
 
   Press “Save” button.
   
 ### 2.	Modify “Contract Management Library Name” variable
-  - Edit the environment variable "Contract Management Library Name"
+  Edit the environment variable "Contract Management Library Name"
   
   ![image](assets/13-ModifySolution-5.png)
 
-  - Under “Current List Value” section click on “+ Add existing”
+  Under “Current List Value” section click on “+ Add existing”
   
   ![image](assets/13-ModifySolution-6.png)
 
-  - Select “Contact Management Hub” and click “Save”
+  Select “Contact Management Hub” and click “Save”
   
   ![image](assets/13-ModifySolution-7.png)
 
 ## Modify “GenerateServiceAgreement” flow
-  - Edit the flow "GenerateServiceAgreement" in “New Tab”
+  Edit the flow "GenerateServiceAgreement" in “New Tab”
 
   ![image](assets/14-ModifyGenerateServiceAgreementFlow-1.png)
 
-  - This is the flow...
+  This is the flow...
 
   ![image](assets/14-ModifyGenerateServiceAgreementFlow-2.png)
 
 ### 1.  Modify action “Generate document using SharePoint Syntex (preview)”
-  - Because you have created the “Modern Template” manually you must change the reference in this action
+  Because you have created the “Modern Template” manually you must change the reference in this action
 
   ![image](assets/14-ModifyGenerateServiceAgreementFlow-3.png)
 
-  - Clear “Document Template” field.
+  Clear “Document Template” field.
   
   ![image](assets/14-ModifyGenerateServiceAgreementFlow-4.png)
 
-  - Clear “Document Library” field
+  Clear “Document Library” field
   
   ![image](assets/14-ModifyGenerateServiceAgreementFlow-5.png)
   
-  - Now PowerAutomate enables you to set the correct values
+  Now PowerAutomate enables you to set the correct values
   
-  - In “Document Library Name” field select “Service Agreement”
+  In “Document Library Name” field select “Service Agreement”
   
   ![image](assets/14-ModifyGenerateServiceAgreementFlow-6.png)
 
-  - In “Document Template” field select “Service Agreement Contract”
+  In “Document Template” field select “Service Agreement Contract”
   
   ![image](assets/14-ModifyGenerateServiceAgreementFlow-7.png)
   
 ### 2.  Change all the field references
-  - Now you must change the fields references
+  Now you must change the field references
   
   ![image](assets/14-ModifyGenerateServiceAgreementFlow-8.png)
 
-  - First you remove “item/xxxx” values, after this add the correct values to the fields
+  First you remove “item/xxxx” values, after this add the correct values to the fields
   
   - Change Date -> Change Date
   - Discount -> Change Fee
@@ -247,15 +254,15 @@ In this step you need to import **DocManagementMicrosoftSyntex_1_0_0_8.zip** as 
   
   ![image](assets/14-ModifyGenerateServiceAgreementFlow-9.png)
 
-  - Save the flow.
+  Save the flow.
  
 ### 3.	Check flow is “Turned on”
-  - If the flow is “Turn off” enable it using “Turn On” button
+  If the flow is “Turn off” enable it using “Turn On” button
   
   ![image](assets/14-ModifyGenerateServiceAgreementFlow-10.png)
 
 # Test the app
-  - Now you are ready to test the Power App and Flows that simulate a document management process.
+  Now you are ready to test the Power App and Flows that simulate a document management process.
 
 ### 1. Play “ManageDocument” App
 
@@ -274,7 +281,7 @@ In this step you need to import **DocManagementMicrosoftSyntex_1_0_0_8.zip** as 
   
   ![image](assets/15-ManageDocumentApp-4.png)
 
-  - The upload process is powered by "UploadContract" flow that you can find in the solution.
+  The upload process is powered by "UploadContract" flow that you can find in the solution.
  
 ### 4. If you use the refresh icon you can check when Syntex classify your document
 
