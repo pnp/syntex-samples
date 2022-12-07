@@ -24,7 +24,7 @@ Before running the PowerShell script open the file with your preferred editor an
 Save and execute the script.
 
 After this you will find in your Syntex content center that the new model has been deployed.
-![image](assets/2-DeploySyntexModel.png)
+![image](assets/2-DeployedSyntexModel.png)
 
 ## Create SharePoint libraries, columns and deploy Syntex model
 > Ensure a new SharePoint site (recommended template Team Site) is created or an existing site can be reused for this solution. Make a note of the URL for this site.
