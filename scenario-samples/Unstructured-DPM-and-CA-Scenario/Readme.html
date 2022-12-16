@@ -1,0 +1,292 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Unstructured Document Processing and Content Assembly Scenario | PnP Syntex Samples </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Unstructured Document Processing and Content Assembly Scenario | PnP Syntex Samples ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    <meta name="description" content="This repository contains community samples that demonstrate different usage patterns and templates for Microsoft Syntex.">
+    <link rel="shortcut icon" href="https://c.s-microsoft.com/favicon.ico?v2">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    <meta property="docfx:newtab" content="true">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <!--
+        <a class="navbar-brand" href="../../index.html">
+          <img id="logo" class="svg" src="../../logo.svg" alt="" >
+        </a>
+        -->
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <label class="glyphicon glyphicon-search" for="search-query"></label>
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+                  <div class="contribution-panel mobile-hide pull-right">
+                      <a href="https://github.com/pnp/syntex-samples/blob/main/docs/scenario-samples/Unstructured-DPM-and-CA-Scenario/Readme.md/#L1" title="Improve this Doc" class="improve-doc-lg"><i class="glyphicon glyphicon-pencil"></i></a>
+                  </div>
+                    <h1 id="unstructured-document-processing-and-content-assembly-scenario">Unstructured Document Processing and Content Assembly Scenario</h1>
+
+<p>In this scenario you will find a sample document management solution that uses both Unstructured Document Processing and Content Assembly Syntex features.
+Currently most of the steps are manual (for example import CA modern template) but hopefully in the near future it might be possible to automate all process using MS Graph API or new Powershell commands.</p>
+<h2 id="samplesource-code">Sample/Source Code</h2>
+<p>You can find the sample source code here: <a href="https://github.com/pnp/syntex-samples/tree/main/scenario-samples/Unstructured-DPM-and-CA-Scenario/">/scenario-samples/Unstructured-DPM-and-CA-Scenario</a></p>
+<h1 id="deployment-instructions">Deployment Instructions</h1>
+<p>Before starting, download all content in a single folder on your computer.</p>
+<p>Then use the <a href="https://pnp.github.io/powershell">PnP PowerShell</a> powered scripts to deploy the necessary SharePoint online libraries, columns and the Syntex model to your content center.</p>
+<ul>
+<li>Import Syntex Model &quot;BenefitChangesServiceAgreement.pnp&quot; into your Syntex content center</li>
+<li>Import Syntex model into your Syntex Content Center</li>
+</ul>
+<h2 id="import-syntex-model-into-your-syntex-content-center">Import Syntex Model into your Syntex content center</h2>
+<p>The first step is to import the Syntex model template named <em>BenefitChangesServiceAgreement.pnp</em> into your Syntex Content Center.</p>
+<p>To do this run <strong>ImportSyntexModel.ps1</strong> PowerShell script.</p>
+<p>Before running the PowerShell script open the file with your preferred editor and update:</p>
+<ul>
+<li>Variable <strong>$ContentCenterURL</strong> to be the url of your Syntex content center.</li>
+</ul>
+<p><img src="assets/1-UpdateImportSyntexModelPS1.png" alt="image"></p>
+<p>Save and execute the script.</p>
+<p>After this you will find in your Syntex content center that the new model has been deployed.
+<img src="assets/2-DeployedSyntexModel.png" alt="image"></p>
+<h2 id="create-sharepoint-libraries-columns-and-deploy-syntex-model">Create SharePoint libraries, columns and deploy Syntex model</h2>
+<blockquote>
+<p>Ensure a new SharePoint site (recommended template Team Site) is created or an existing site can be reused for this solution. Make a note of the URL for this site.</p>
+</blockquote>
+<p>The next step is to create the necessary SharePoint libraries, columns and publish the Syntex model to a library.</p>
+<p>To do this use the <strong>DeployContent.ps1</strong> PowerShell script.</p>
+<p>Before running the PowerShell script open the file with your preferred editor and update:</p>
+<ul>
+<li>Variable <strong>$SiteURL</strong> to be url of the site to be used to add files and create documents.</li>
+<li>Variable <strong>$ContentCenterURL</strong> to be the url of your Syntex content center.</li>
+<li><em>Optionally update the variables <strong>$LibraryNameSA</strong> and <strong>$LibraryNameCA</strong> to use different library names</em></li>
+</ul>
+<p><img src="assets/3-DeployContentPS1.png" alt="image"></p>
+<p>Save and execute the script.</p>
+<p>The script completes the following:</p>
+<ul>
+<li>Creates the Contract Management Hub document library
+<ul>
+<li>Add ServiceAgreementLink column to library</li>
+</ul>
+</li>
+<li>Create Service Agreement document library</li>
+<li>Publishes the Syntex model to Contract Management Hub document library</li>
+</ul>
+<h2 id="create-modern-template-in-service-agreement-document-library">Create Modern Template in &quot;Service Agreement&quot; document library</h2>
+<p>The next step is to create the Syntex Content Assembly modern template. Currently these are manual steps and the instructions are added below.</p>
+<h3 id="1create-modern-template">1.	Create Modern Template</h3>
+<p>Access the “Service Agreement” document library in your target site.</p>
+<p>Select &quot;+ New&quot; -&gt; &quot;Create Modern Template&quot;</p>
+<p><img src="assets/4-CreateModernTemplate.png" alt="image"></p>
+<h3 id="2--select-service-agreement-contractdocx-as-template">2.  Select “Service Agreement Contract.docx” as Template</h3>
+<p><img src="assets/5-UploadServiceAgreement.png" alt="image"></p>
+<h3 id="3--create-placeholders">3.  Create Placeholders</h3>
+<p>You need to create 3 placeholders in your template</p>
+<ul>
+<li>Employee Name</li>
+<li>Change Date</li>
+<li>Discount</li>
+</ul>
+<p>This will be the final result:</p>
+<p><img src="assets/6-CompleteServiceAgreement.png" alt="image"></p>
+<p>To complete the above - do the following...</p>
+<ul>
+<li>Create “Employee Name” field.</li>
+<li>Click on “+ New field”</li>
+<li>As Name type “Employee Name”</li>
+<li>Select “Enrico Cattaneo” in the document text and “Confirm”</li>
+</ul>
+<p><img src="assets/7-EmployeeName-1.png" alt="image"></p>
+<p>Press “Next” button</p>
+<p><img src="assets/7-EmployeeName-2.png" alt="image"></p>
+<p>Select “Single line of text” and press “Save” button</p>
+<p><img src="assets/7-EmployeeName-3.png" alt="image"></p>
+<p>Click “+ New field” to create “Change Date” field</p>
+<p><img src="assets/8-ChangeDate-1.png" alt="image"></p>
+<p><img src="assets/8-ChangeDate-2.png" alt="image"></p>
+<p>Select “September 15, 2017” in document text.</p>
+<p>Press “Confirm” button…</p>
+<p>Select “Date and time” as type</p>
+<p><img src="assets/8-ChangeDate-3.png" alt="image"></p>
+<p>Press “Save” button…</p>
+<p>Click “+ New field” to create “Discount” field</p>
+<p><img src="assets/9-Discount-1.png" alt="image"></p>
+<p>Select “8” in document text.</p>
+<p><img src="assets/9-Discount-2.png" alt="image"></p>
+<p>Press “Confirm” button…</p>
+<p>Select “Number” as type</p>
+<p><img src="assets/9-Discount-3.png" alt="image"></p>
+<h3 id="4publish-template">4.	Publish Template</h3>
+<p>Press “Publish” button in the top right hand corner to publish the template.</p>
+<p><img src="assets/10-PublishTemplate-1.png" alt="image"></p>
+<p>Do not change the template name and press the “Publish” button one more time.</p>
+<p><img src="assets/10-PublishTemplate-2.png" alt="image"></p>
+<p><img src="assets/10-PublishTemplate-3.png" alt="image"></p>
+<h3 id="5check-result">5.	Check Result</h3>
+<p>Now check that the “Service Agreement Contract” template is now available in “Service Agreement” document library</p>
+<p><img src="assets/11-ServiceAgreementCATemplateInLibrary.png" alt="image"></p>
+<h2 id="import-power-platform-solution">Import Power Platform Solution</h2>
+<p>In this step you need to import <strong>DocManagementMicrosoftSyntex_1_0_0_8.zip</strong> as solution in your Power Platform Environment.
+<strong>To do this remember that you need an Environment with Dataverse.</strong></p>
+<h3 id="1import-solution">1.	Import Solution</h3>
+<p>Go to the <a href="https://make.powerapps.com">Power Platform admin centre</a> &amp; under the “Solution” section, click “Import Solution”</p>
+<p><img src="assets/12-ImportPPSolution-1.png" alt="image"></p>
+<h3 id="2select-docmanagementmicrosoftsyntex_1_0_0_8zip">2.	Select “DocManagementMicrosoftSyntex_1_0_0_8.zip”</h3>
+<p>Select zip file and click “Next”</p>
+<p><img src="assets/12-ImportPPSolution-2.png" alt="image"></p>
+<p>Import this solution as <strong>“Unmanaged”</strong> because you will need to change some settings and configuration after the import</p>
+<p><img src="assets/12-ImportPPSolution-3.png" alt="image"></p>
+<h3 id="3configuring-sharepoint-settings-connection-and-url">3.	Configuring SharePoint settings (connection and url)</h3>
+<p>Now you must select a valid SharePoint connection. If you don’t have a valid connection the wizard will help you to create a SPO connection</p>
+<p><img src="assets/12-ImportPPSolution-4.png" alt="image"></p>
+<p><img src="assets/12-ImportPPSolution-5.png" alt="image"></p>
+<p>Click “Next”</p>
+<p>Now you are able to select the correct SharePoint site URL and the “Contract Management Hub” document library</p>
+<p><img src="assets/12-ImportPPSolution-6.png" alt="image"></p>
+<p>Click “Import”</p>
+<p><img src="assets/12-ImportPPSolution-7.png" alt="image"></p>
+<p>Wait the process finish to import the solution.</p>
+<p><img src="assets/12-ImportPPSolution-8.png" alt="image"></p>
+<h2 id="modify-environment-variables">Modify Environment Variables</h2>
+<p>Click on Solution to see all details</p>
+<p><img src="assets/13-ModifySolution-1.png" alt="image"></p>
+<h3 id="1modify-sharepointsiteurl-variable">1.	Modify “SharePointSiteURL” variable</h3>
+<p>Edit the environment variable “SharePointSiteURL”</p>
+<p><img src="assets/13-ModifySolution-2.png" alt="image"></p>
+<p>Under “Current Site Value” click on “+ Add existing”</p>
+<p><img src="assets/13-ModifySolution-3.png" alt="image"></p>
+<p>Select SPO target site for deployment</p>
+<p><img src="assets/13-ModifySolution-4.png" alt="image"></p>
+<p>Press “Save” button.</p>
+<h3 id="2modify-contract-management-library-name-variable">2.	Modify “Contract Management Library Name” variable</h3>
+<p>Edit the environment variable &quot;Contract Management Library Name&quot;</p>
+<p><img src="assets/13-ModifySolution-5.png" alt="image"></p>
+<p>Under “Current List Value” section click on “+ Add existing”</p>
+<p><img src="assets/13-ModifySolution-6.png" alt="image"></p>
+<p>Select “Contact Management Hub” and click “Save”</p>
+<p><img src="assets/13-ModifySolution-7.png" alt="image"></p>
+<h2 id="modify-generateserviceagreement-flow">Modify “GenerateServiceAgreement” flow</h2>
+<p>Edit the flow &quot;GenerateServiceAgreement&quot; in “New Tab”</p>
+<p><img src="assets/14-ModifyGenerateServiceAgreementFlow-1.png" alt="image"></p>
+<p>This is the flow...</p>
+<p><img src="assets/14-ModifyGenerateServiceAgreementFlow-2.png" alt="image"></p>
+<h3 id="1--modify-action-generate-document-using-sharepoint-syntex-preview">1.  Modify action “Generate document using SharePoint Syntex (preview)”</h3>
+<p>Because you have created the “Modern Template” manually you must change the reference in this action</p>
+<p><img src="assets/14-ModifyGenerateServiceAgreementFlow-3.png" alt="image"></p>
+<p>Clear “Document Template” field.</p>
+<p><img src="assets/14-ModifyGenerateServiceAgreementFlow-4.png" alt="image"></p>
+<p>Clear “Document Library” field</p>
+<p><img src="assets/14-ModifyGenerateServiceAgreementFlow-5.png" alt="image"></p>
+<p>Now PowerAutomate enables you to set the correct values</p>
+<p>In “Document Library Name” field select “Service Agreement”</p>
+<p><img src="assets/14-ModifyGenerateServiceAgreementFlow-6.png" alt="image"></p>
+<p>In “Document Template” field select “Service Agreement Contract”</p>
+<p><img src="assets/14-ModifyGenerateServiceAgreementFlow-7.png" alt="image"></p>
+<h3 id="2--change-all-the-field-references">2.  Change all the field references</h3>
+<p>Now you must change the field references</p>
+<p><img src="assets/14-ModifyGenerateServiceAgreementFlow-8.png" alt="image"></p>
+<p>First you remove “item/xxxx” values, after this add the correct values to the fields</p>
+<ul>
+<li>Change Date -&gt; Change Date</li>
+<li>Discount -&gt; Change Fee</li>
+<li>Employee Name -&gt; Employee Name</li>
+</ul>
+<p><img src="assets/14-ModifyGenerateServiceAgreementFlow-9.png" alt="image"></p>
+<p>Save the flow.</p>
+<h3 id="3check-flow-is-turned-on">3.	Check flow is “Turned on”</h3>
+<p>If the flow is “Turn off” enable it using “Turn On” button</p>
+<p><img src="assets/14-ModifyGenerateServiceAgreementFlow-10.png" alt="image"></p>
+<h1 id="test-the-app">Test the app</h1>
+<p>Now you are ready to test the Power App and Flows that simulate a document management process.</p>
+<h3 id="1-play-managedocument-app">1. Play “ManageDocument” App</h3>
+<p><img src="assets/15-ManageDocumentApp-1.png" alt="image"></p>
+<h3 id="2-click-on-attach-file-and-select-contract_change_wwi_4docx">2. Click on “Attach file” and select “Contract_Change_WWI_4.docx”</h3>
+<p><img src="assets/15-ManageDocumentApp-2.png" alt="image"></p>
+<h3 id="3--press-upload-button">3.  Press &quot;Upload&quot; button</h3>
+<p><img src="assets/15-ManageDocumentApp-3.png" alt="image"></p>
+<ul>
+<li>Wait the notification message</li>
+</ul>
+<p><img src="assets/15-ManageDocumentApp-4.png" alt="image"></p>
+<p>The upload process is powered by &quot;UploadContract&quot; flow that you can find in the solution.</p>
+<h3 id="4-if-you-use-the-refresh-icon-you-can-check-when-syntex-classify-your-document">4. If you use the refresh icon you can check when Syntex classify your document</h3>
+<h3 id="5-at-the-end-you-can-see-information-details-extracted-by-syntex-in-form-detail">5. At the end you can see information details extracted by Syntex in form detail</h3>
+<p><img src="assets/15-ManageDocumentApp-5.png" alt="image"></p>
+<h3 id="6when-the-flow-generateserviceagreement-is-finished-you-can-click-the-icon-to-see-the-document-create-using-modern-template">6.	When the flow “GenerateServiceAgreement” is finished you can click the icon to see the document create using “Modern Template”</h3>
+<p><img src="assets/15-ManageDocumentApp-6.png" alt="image"></p>
+</article>
+          </div>
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              </nav>
+            </div>
+          </div>        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Syntex Samples<br>Generated by <strong><a href='https://dotnet.github.io/docfx' alt='Doc FX Website'>DocFX</a></strong> with <strong><a href='https://ovasquez.github.io/docfx-material' alt='DocFx Material Theme'>Material UI</a></strong></span>
+            
+          </div>
+        </div>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>  </body>
+</html>

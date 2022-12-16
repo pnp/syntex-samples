@@ -506,6 +506,568 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/Readme.md",
+      "output": {
+        ".html": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/Readme.html",
+          "hash": "xaZQUbY+8jIBR7dShzkkUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/1-UpdateImportSyntexModelPS1.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/1-UpdateImportSyntexModelPS1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/10-PublishTemplate-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/10-PublishTemplate-1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/10-PublishTemplate-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/10-PublishTemplate-2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/10-PublishTemplate-3.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/10-PublishTemplate-3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/11-ServiceAgreementCATemplateInLibrary.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/11-ServiceAgreementCATemplateInLibrary.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/12-ImportPPSolution-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/12-ImportPPSolution-1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/12-ImportPPSolution-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/12-ImportPPSolution-2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/12-ImportPPSolution-3.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/12-ImportPPSolution-3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/12-ImportPPSolution-4.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/12-ImportPPSolution-4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/12-ImportPPSolution-5.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/12-ImportPPSolution-5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/12-ImportPPSolution-6.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/12-ImportPPSolution-6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/12-ImportPPSolution-7.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/12-ImportPPSolution-7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/12-ImportPPSolution-8.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/12-ImportPPSolution-8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/13-ModifySolution-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/13-ModifySolution-1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/13-ModifySolution-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/13-ModifySolution-2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/13-ModifySolution-3.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/13-ModifySolution-3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/13-ModifySolution-4.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/13-ModifySolution-4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/13-ModifySolution-5.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/13-ModifySolution-5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/13-ModifySolution-6.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/13-ModifySolution-6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/13-ModifySolution-7.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/13-ModifySolution-7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/14-ModifyGenerateServiceAgreementFlow-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/14-ModifyGenerateServiceAgreementFlow-1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/14-ModifyGenerateServiceAgreementFlow-10.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/14-ModifyGenerateServiceAgreementFlow-10.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/14-ModifyGenerateServiceAgreementFlow-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/14-ModifyGenerateServiceAgreementFlow-2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/14-ModifyGenerateServiceAgreementFlow-3.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/14-ModifyGenerateServiceAgreementFlow-3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/14-ModifyGenerateServiceAgreementFlow-4.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/14-ModifyGenerateServiceAgreementFlow-4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/14-ModifyGenerateServiceAgreementFlow-5.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/14-ModifyGenerateServiceAgreementFlow-5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/14-ModifyGenerateServiceAgreementFlow-6.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/14-ModifyGenerateServiceAgreementFlow-6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/14-ModifyGenerateServiceAgreementFlow-7.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/14-ModifyGenerateServiceAgreementFlow-7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/14-ModifyGenerateServiceAgreementFlow-8.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/14-ModifyGenerateServiceAgreementFlow-8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/14-ModifyGenerateServiceAgreementFlow-9.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/14-ModifyGenerateServiceAgreementFlow-9.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/15-ManageDocumentApp-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/15-ManageDocumentApp-1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/15-ManageDocumentApp-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/15-ManageDocumentApp-2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/15-ManageDocumentApp-3.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/15-ManageDocumentApp-3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/15-ManageDocumentApp-4.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/15-ManageDocumentApp-4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/15-ManageDocumentApp-5.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/15-ManageDocumentApp-5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/15-ManageDocumentApp-6.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/15-ManageDocumentApp-6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/2-DeployedSyntexModel.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/2-DeployedSyntexModel.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/3-DeployContentPS1.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/3-DeployContentPS1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/4-CreateModernTemplate.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/4-CreateModernTemplate.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/5-UploadServiceAgreement.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/5-UploadServiceAgreement.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/6-CompleteServiceAgreement.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/6-CompleteServiceAgreement.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/7-EmployeeName-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/7-EmployeeName-1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/7-EmployeeName-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/7-EmployeeName-2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/7-EmployeeName-3.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/7-EmployeeName-3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/8-ChangeDate-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/8-ChangeDate-1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/8-ChangeDate-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/8-ChangeDate-2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/8-ChangeDate-3.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/8-ChangeDate-3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/9-Discount-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/9-Discount-1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/9-Discount-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/9-Discount-2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/9-Discount-3.png",
+      "output": {
+        "resource": {
+          "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/assets/9-Discount-3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "scenario-samples/toc.yml",
       "output": {
@@ -1287,7 +1849,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 32,
+          "total_file_count": 33,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
