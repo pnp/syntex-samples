@@ -75,13 +75,17 @@
                   </div>
                     <h1 id="unstructured-document-processing-and-content-assembly-app">Unstructured Document Processing and Content Assembly App</h1>
 
-<p>In this scenario you will find Power Platform sample document management solution that uses Microsoft Syntex Unstructured Document Processing and Content Assembly.
-Currently most of the steps are manual (for example import the content assembly modern template) but hopefully in the near future it might be possible to automate all of the process using MS Graph API or new Powershell commands.</p>
+<p>In this scenario you will find a Power Platform sample document management solution that uses Microsoft Syntex Unstructured Document Processing and Content Assembly.</p>
+<p>All from a Power App: upload a benefits changes document to the app and a Syntex document understanding model will proces the document and will extract metadata values from the document. Then using the extracted metadata with Syntex content assembly a custom document will be generated and made available in the app.</p>
+<p>Deploy today to your tenant and see a great example of the art of the possible with Power Platform and Microsoft Syntex.</p>
 <p><img src="assets/15-ManageDocumentApp-6.png" alt="image"></p>
 <h2 id="samplesource-code">Sample/Source Code</h2>
 <p>You can find the sample source code here: <a href="https://github.com/pnp/syntex-samples/tree/main/scenario-samples/Unstructured-DPM-and-CA-Scenario/">/scenario-samples/Unstructured-DPM-and-CA-Scenario</a></p>
 <h1 id="deployment-instructions">Deployment Instructions</h1>
-<p>Before starting, download all content in a single folder on your computer.</p>
+<blockquote>
+<p>Currently most of the steps are manual (for example import the content assembly modern template) but hopefully in the near future it might be possible to automate all of the process using MS Graph API or new Powershell commands.
+Before starting, download all content in a single folder on your computer.</p>
+</blockquote>
 <p>Then use the <a href="https://pnp.github.io/powershell">PnP PowerShell</a> powered scripts to deploy the necessary SharePoint online libraries, columns and the Syntex model to your content center.</p>
 <ul>
 <li>Import Syntex Model &quot;BenefitChangesServiceAgreement.pnp&quot; into your Syntex content center</li>
