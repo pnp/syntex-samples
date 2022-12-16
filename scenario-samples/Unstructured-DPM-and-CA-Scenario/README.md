@@ -1,7 +1,7 @@
-# Unstructured Document Processing and Content Assembly Scenario 
+# Unstructured Document Processing and Content Assembly App
 
-In this scenario you will find a sample document management solution that uses both Unstructured Document Processing and Content Assembly Syntex features. 
-Currently most of the steps are manual (for example import CA modern template) but hopefully in the near future it might be possible to automate all process using MS Graph API or new Powershell commands.
+In this scenario you will find Power Platform sample document management solution that uses Microsoft Syntex Unstructured Document Processing and Content Assembly. 
+Currently most of the steps are manual (for example import the content assembly modern template) but hopefully in the near future it might be possible to automate all of the process using MS Graph API or new Powershell commands.
 
 ## Sample/Source Code
 
