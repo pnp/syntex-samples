@@ -2,7 +2,7 @@
 
 In this scenario you will find a Power Platform sample document management solution that uses Microsoft Syntex Unstructured Document Processing and Content Assembly. 
 
-All from a Power App: upload a benefits changes document to the app and a Syntex document understanding model will proces the document and will extract metadata values from the document. Then using the extracted metadata with Syntex content assembly a custom document will be generated and made available in the app.
+All from a Power App: upload a benefits changes document to the app and a Syntex document understanding model will proces the document and will extract metadata values from the document. Then using the extracted metadata with Syntex content assembly a custom service agreemwnt will be generated and made available in the app.
 
 Deploy today to your tenant and see a great example of the art of the possible with Power Platform and Microsoft Syntex.
 
