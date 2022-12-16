@@ -3,6 +3,8 @@
 In this scenario you will find Power Platform sample document management solution that uses Microsoft Syntex Unstructured Document Processing and Content Assembly. 
 Currently most of the steps are manual (for example import the content assembly modern template) but hopefully in the near future it might be possible to automate all of the process using MS Graph API or new Powershell commands.
 
+![image](assets/15-ManageDocumentApp-6.png)
+
 ## Sample/Source Code
 
 You can find the sample source code here: [/scenario-samples/Unstructured-DPM-and-CA-Scenario](https://github.com/pnp/syntex-samples/tree/main/scenario-samples/Unstructured-DPM-and-CA-Scenario/)
