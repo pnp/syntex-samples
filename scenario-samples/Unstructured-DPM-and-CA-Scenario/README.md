@@ -1,7 +1,10 @@
 # Unstructured Document Processing and Content Assembly App
 
-In this scenario you will find Power Platform sample document management solution that uses Microsoft Syntex Unstructured Document Processing and Content Assembly. 
-Currently most of the steps are manual (for example import the content assembly modern template) but hopefully in the near future it might be possible to automate all of the process using MS Graph API or new Powershell commands.
+In this scenario you will find a Power Platform sample document management solution that uses Microsoft Syntex Unstructured Document Processing and Content Assembly. 
+
+All from a Power App: upload a benefits changes document to the app and a Syntex document understanding model will proces the document and will extract metadata values from the document. Then using the extracted metadata with Syntex content assembly a custom document will be generated and made available in the app.
+
+Deploy today to your tenant and see a great example of the art of the possible with Power Platform and Microsoft Syntex.
 
 ![image](assets/15-ManageDocumentApp-6.png)
 
@@ -10,6 +13,7 @@ Currently most of the steps are manual (for example import the content assembly 
 You can find the sample source code here: [/scenario-samples/Unstructured-DPM-and-CA-Scenario](https://github.com/pnp/syntex-samples/tree/main/scenario-samples/Unstructured-DPM-and-CA-Scenario/)
 
 # Deployment Instructions
+> Currently most of the steps are manual (for example import the content assembly modern template) but hopefully in the near future it might be possible to automate all of the process using MS Graph API or new Powershell commands.
 Before starting, download all content in a single folder on your computer.
 
 Then use the [PnP PowerShell](https://pnp.github.io/powershell) powered scripts to deploy the necessary SharePoint online libraries, columns and the Syntex model to your content center.
