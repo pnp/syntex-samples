@@ -3,10 +3,14 @@
 In this scenario you will find a sample document management solution that uses both Unstructured Document Processing and Content Assembly Syntex features. 
 Currently most of the steps are manual (for example import CA modern template) but hopefully in the near future it might be possible to automate all process using MS Graph API or new Powershell commands.
 
+## Sample/Source Code
+
+You can find the sample source code here: [/scenario-samples/Unstructured-DPM-and-CA-Scenario](https://github.com/pnp/syntex-samples/tree/main/scenario-samples/Unstructured-DPM-and-CA-Scenario/)
+
 # Deployment Instructions
 Before starting, download all content in a single folder on your computer.
 
-Then use [PnP PowerShell](https://pnp.github.io/powershell) powered scripts to deploy the necessary SharePoint online libraries, columns and the Syntex model to your content center.
+Then use the [PnP PowerShell](https://pnp.github.io/powershell) powered scripts to deploy the necessary SharePoint online libraries, columns and the Syntex model to your content center.
 - Import Syntex Model "BenefitChangesServiceAgreement.pnp" into your Syntex content center
 - Import Syntex model into your Syntex Content Center
 
