@@ -9,17 +9,19 @@ Deploy today to your tenant and see a great example of the art of the possible w
 
 ## Deployment Instruction
 
-### Import Syntex Model into your Syntex content center
-The first step is to import the Syntex model template named BenefitChangesServiceAgreement.pnp into your Syntex Content Center.
+### Prerequisites
+- A Power Platform Environment with Dataverse and with AI Builder credit
+You can enable a trial for AI Builder at this link 
 
-To do this run ImportSyntexModel.ps1 PowerShell script.
+https://powerapps.microsoft.com/en-us/ai-builder/
 
-Before running the PowerShell script open the file with your preferred editor and update:
-- Variable **$ContentCenterURL** to be the url of your Syntex content center.
+<img width="567" alt="image" src="https://user-images.githubusercontent.com/22641502/216955955-ceeb67f3-b4b7-4604-ac9c-6cf175cf8e34.png">
 
-![image](https://user-images.githubusercontent.com/22641502/216779101-dda29d8c-0100-488a-8bf3-57c841d8a0bd.png)
 
-Save and execute the script.
+### Create a SharePoint Document Library in your Site
+In your Team or Communication SharePoint site you need to create a document library. 
+Remember this name because you must set an Environment Variable with this document library name.
 
-After this you will find in your Syntex content center that the new model has been deployed.
+### Create a Layout Method Model in Syntex
+Open your Content Center site and create a new model
 
