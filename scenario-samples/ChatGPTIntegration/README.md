@@ -175,6 +175,99 @@ Repeat these steps for all other rows and click "Done"
 
 Go to the second document and repeat all steps above
 
+<img width="878" alt="image" src="https://user-images.githubusercontent.com/22641502/217217713-e3f53c7a-0e75-4353-b6ba-66b0dced9421.png">
+
+The same for all other 3 Adatum invoices...
+
+<img width="257" alt="image" src="https://user-images.githubusercontent.com/22641502/217218823-1aa74cc7-1323-4bd4-9e7a-d646cb589faa.png">
+
+Now you can start to tag all "Contoso invoices"
+
+1) Invoice Number
+<img width="291" alt="image" src="https://user-images.githubusercontent.com/22641502/217219048-693ef431-206b-4dee-88e0-6e70173b9c68.png">
+
+2) Invoice To
+<img width="492" alt="image" src="https://user-images.githubusercontent.com/22641502/217219174-ff27b0ce-c4b8-4015-89e2-ab1afd10b437.png">
+
+3) Vendor
+<img width="248" alt="image" src="https://user-images.githubusercontent.com/22641502/217219343-bac027ec-b1de-4506-aee5-0b91a531195f.png">
+
+4) Invoice Total
+<img width="266" alt="image" src="https://user-images.githubusercontent.com/22641502/217219414-33db931d-bfa6-4c7c-9f1a-3025d9100266.png">
+
+5) Invoice Tax
+<img width="263" alt="image" src="https://user-images.githubusercontent.com/22641502/217219532-0f97e898-8c2e-47b3-a8c0-2ab1b1c61ebe.png">
+
+6) Invoice Date
+<img width="306" alt="image" src="https://user-images.githubusercontent.com/22641502/217219667-001a9c11-90b2-4f5b-b666-8f970e56c505.png">
+
+Now you need to identify the details table in the form as showed in this picture
+
+<img width="513" alt="image" src="https://user-images.githubusercontent.com/22641502/217219811-26d7b6bc-e7cf-4b8e-928e-83b09397ae67.png">
+
+Select the description to insert the value in the Item column
+
+<img width="887" alt="image" src="https://user-images.githubusercontent.com/22641502/217220073-ed16234e-0f0f-4a83-bc2d-72ef325cdcb9.png">
+
+The same for quantity
+
+<img width="874" alt="image" src="https://user-images.githubusercontent.com/22641502/217220227-386a4d15-148a-4767-a083-6cd89fbdac61.png">
+
+The same for amount
+
+<img width="878" alt="image" src="https://user-images.githubusercontent.com/22641502/217220298-aa7bfe33-3f47-4299-bf9e-f0adccdcc0d7.png">
+
+Repeat all steps for other rows
+
+<img width="886" alt="image" src="https://user-images.githubusercontent.com/22641502/217220536-b2b4409b-c096-41d8-b958-08a9c8b517a7.png">
+
+Click "Done" to switch to the second document... Repeat all steps above
+
+<img width="885" alt="image" src="https://user-images.githubusercontent.com/22641502/217220970-1fb0d865-eabc-48b9-a382-af887ebfcae6.png">
+
+The same for all other 3 documents...
+When you finished click "Next" to review the model
+
+<img width="985" alt="image" src="https://user-images.githubusercontent.com/22641502/217232861-a1c0b23c-0aa0-4552-b4c8-94fa513d3bf2.png">
+
+Now Train the model...
+
+<img width="805" alt="image" src="https://user-images.githubusercontent.com/22641502/217232930-76003480-ee1a-4e75-a4f2-67fd0d76d166.png">
+
+<img width="388" alt="image" src="https://user-images.githubusercontent.com/22641502/217232968-9f9a7e2c-6e2d-4f7f-ba7c-5c828331ef29.png">
+
+<img width="389" alt="image" src="https://user-images.githubusercontent.com/22641502/217233020-c755c531-0805-44da-ae17-54dd0fc8e79c.png">
+
+In the Content Center wait that training is finished...
+
+<img width="1188" alt="image" src="https://user-images.githubusercontent.com/22641502/217233206-1e93afac-1094-40e0-a02e-95cec59cce6f.png">
+
+Click "Publish" to publish the model
+
+<img width="1193" alt="image" src="https://user-images.githubusercontent.com/22641502/217233293-0d15de12-8d4a-40a6-bcfd-57d884bc39ea.png">
+
+#### Apply Model to a SharePoint Document Library
+Choose the document library created before for associate the model
+
+<img width="1183" alt="image" src="https://user-images.githubusercontent.com/22641502/217233730-452c9e63-c24e-45e4-9d79-c6a94dbdbbc3.png">
+
+<img width="254" alt="image" src="https://user-images.githubusercontent.com/22641502/217233816-c46cd49b-fb87-4f29-a65b-5dbc6e93bb07.png">
+
+Create a related list for save all details line
+
+<img width="248" alt="image" src="https://user-images.githubusercontent.com/22641502/217265931-1035b453-0c1b-4290-9fb4-379c0a7eba91.png">
+
+Select your preferred view
+
+<img width="251" alt="image" src="https://user-images.githubusercontent.com/22641502/217233983-ce065d05-3117-4d31-bb26-62db77e0baae.png">
+
+### Install Power Platform Solution
+
+
+
+
+
+
 
 
 
