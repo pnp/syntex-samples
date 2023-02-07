@@ -255,6 +255,8 @@ Choose the document library created before for associate the model
 
 Create a related list for save all details line
 
+<img width="260" alt="image" src="https://user-images.githubusercontent.com/22641502/217385184-e2a727ad-aa91-46f3-ae92-68017bd7749c.png">
+
 <img width="248" alt="image" src="https://user-images.githubusercontent.com/22641502/217265931-1035b453-0c1b-4290-9fb4-379c0a7eba91.png">
 
 Select your preferred view
