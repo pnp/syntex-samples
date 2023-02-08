@@ -4,7 +4,7 @@ This repository contains community samples that demonstrate different usage patt
 
 > We do welcome community contributions (e.g. Syntex unstructured document processing models) to the samples folder in this repository. Note that if you use contribute a model, please make sure that the training data submitted with your model can be publicly shared.
 
-> **NOTE:** Unfortunately other Syntex model types such as structured document processing or freefom document processing cannot at this moment in time be exported to a PnP template. So cannot be shared in this repository. 
+> **NOTE:** Unfortunately other Syntex model types such as structured document processing or freeform document processing cannot at this moment in time be exported to a PnP template. So cannot be shared in this repository. 
 
 ## Have issues or questions?
 
