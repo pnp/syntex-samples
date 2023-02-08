@@ -67,4 +67,53 @@ If you do not include the property "includeTrainingData", the default behavior i
 
 > NOTE: training data is required for a model to be editable when imported to a destination Content Center
 
+## Export all models in a Content Center - individually as separate PnP templates
+
+To export all models in a Content Center into individual PnP templates then use the following [PnP PowerShell](https://pnp.github.io/powershell/) script. 
+
+```powershell
+Connect-PnPOnline -Url "https://contoso.sharepoint.com/sites/yourContentCenter"
+
+$ExportPath = "C:\Syntex\ModelBackups"
+
+$items = Get-PnPListItem -List 'Models'
+foreach($item in $items)
+{
+
+    if($item.FieldValues.ModelMappedClassifierName -ne $null)
+    {
+        Write-Output "Creating JSON Import File $ExportPath\$($item.FieldValues.ModelMappedClassifierName).json"
+
+
+$jsonRepresentation = @"
+{
+    "`$schema": "https://developer.microsoft.com/en-us/json-schemas/pnp/provisioning/202102/extract-configuration.schema.json",
+    "persistAssetFiles": true,
+    "handlers": [
+        "SyntexModels"
+    ],
+    "syntexModels": {
+        "models": [
+            {
+                "name": "$($item.FieldValues.FileLeafRef)"
+            }
+        ]
+    }
+}
+"@
+
+        $jsonRepresentation.Trim() | Out-File "$ExportPath\$($item.FieldValues.ModelMappedClassifierName).json"
+
+        Write-Output "Extracting Model $($item.FieldValues.ModelMappedClassifierName) to $($ExportPath)\$($item.FieldValues.ModelMappedClassifierName).pnp"
+
+        Get-PnPSiteTemplate -Out "$ExportPath\$($item.FieldValues.ModelMappedClassifierName).pnp" -Configuration "$ExportPath\$($item.FieldValues.ModelMappedClassifierName).json"
+
+        Write-Output "-----------------------------------"
+
+    }
+
+}
+```
+This script will create the necessary JSON files for each model and then export each model as a separate .pnp file.
+
 <img src="https://pnptelemetry.azurewebsites.net/syntex-samples/docs/exporting models" />
