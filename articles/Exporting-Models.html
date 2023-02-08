@@ -126,6 +126,51 @@ Get-PnPSiteTemplate -Out MyModels.pnp -Configuration .\extract.json
 <blockquote>
 <p>NOTE: training data is required for a model to be editable when imported to a destination Content Center</p>
 </blockquote>
+<h2 id="export-all-models-in-a-content-center---individually-as-separate-pnp-templates">Export all models in a Content Center - individually as separate PnP templates</h2>
+<p>To export all models in a Content Center into individual PnP templates then use the following <a href="https://pnp.github.io/powershell/">PnP PowerShell</a> script.</p>
+<pre><code class="lang-powershell">Connect-PnPOnline -Url &quot;https://contoso.sharepoint.com/sites/yourContentCenter&quot;
+
+$ExportPath = &quot;C:\Syntex\ModelBackups&quot;
+
+$items = Get-PnPListItem -List 'Models'
+foreach($item in $items)
+{
+
+    if($item.FieldValues.ModelMappedClassifierName -ne $null)
+    {
+        Write-Output &quot;Creating JSON Import File $ExportPath\$($item.FieldValues.ModelMappedClassifierName).json&quot;
+
+
+$jsonRepresentation = @&quot;
+{
+    &quot;`$schema&quot;: &quot;https://developer.microsoft.com/en-us/json-schemas/pnp/provisioning/202102/extract-configuration.schema.json&quot;,
+    &quot;persistAssetFiles&quot;: true,
+    &quot;handlers&quot;: [
+        &quot;SyntexModels&quot;
+    ],
+    &quot;syntexModels&quot;: {
+        &quot;models&quot;: [
+            {
+                &quot;name&quot;: &quot;$($item.FieldValues.FileLeafRef)&quot;
+            }
+        ]
+    }
+}
+&quot;@
+
+        $jsonRepresentation.Trim() | Out-File &quot;$ExportPath\$($item.FieldValues.ModelMappedClassifierName).json&quot;
+
+        Write-Output &quot;Extracting Model $($item.FieldValues.ModelMappedClassifierName) to $($ExportPath)\$($item.FieldValues.ModelMappedClassifierName).pnp&quot;
+
+        Get-PnPSiteTemplate -Out &quot;$ExportPath\$($item.FieldValues.ModelMappedClassifierName).pnp&quot; -Configuration &quot;$ExportPath\$($item.FieldValues.ModelMappedClassifierName).json&quot;
+
+        Write-Output &quot;-----------------------------------&quot;
+
+    }
+
+}
+</code></pre>
+<p>This script will create the necessary JSON files for each model and then export each model as a separate .pnp file.</p>
 <img src="https://pnptelemetry.azurewebsites.net/syntex-samples/docs/exporting models">
 </article>
           </div>
