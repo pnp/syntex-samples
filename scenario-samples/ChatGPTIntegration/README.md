@@ -263,7 +263,58 @@ Select your preferred view
 
 <img width="251" alt="image" src="https://user-images.githubusercontent.com/22641502/217233983-ce065d05-3117-4d31-bb26-62db77e0baae.png">
 
+### Get SharePoint Site ID and Invoice Document library ID
+In this sample for invoice upload, the Power App use Graph API.
+For this is necessary identify the SharePoint site ID and document library ID
+
+Open graph explorer at link https://developer.microsoft.com/en-us/graph/graph-explorer and insert your credential
+
+Use this call: https://graph.microsoft.com/v1.0/sites/<<tenantName>>.sharepoint.com:/<<spSiteUrl>> 
+Es: https://graph.microsoft.com/v1.0/sites/tenantXXX.sharepoint.com:/sites/DemoSyntex
+
+This is the result
+  
+<img width="734" alt="image" src="https://user-images.githubusercontent.com/22641502/217964745-e60f8fa8-0658-4d4f-9f0d-cd3d91b60513.png">
+
+The second part of id is your site id
+  
+Use this call https://graph.microsoft.com/v1.0/sites/<<siteID>>/drives to take the document library id
+  
+Copy these values in one text editor, will be necessary to set an environment variables value
+
 ### Install Power Platform Solution
+Open your Power Platform Environment where you want to install the solution SyntexChatGPTIntegration_1_0_0_1.zip
+Click on "Import Solution"
+
+<img width="521" alt="image" src="https://user-images.githubusercontent.com/22641502/217961364-c7aa6f29-6a25-438d-b133-612588ee833b.png">
+
+<img width="484" alt="image" src="https://user-images.githubusercontent.com/22641502/217961406-2a2fdd0b-9989-42c2-b899-3412064a42ae.png">
+
+and after selection click "Next"
+
+Leave all default settings and click "Next"
+
+<img width="481" alt="image" src="https://user-images.githubusercontent.com/22641502/217961524-77f9827d-ac91-47d3-b602-d9489257cfcf.png">
+
+Select the correct connections versus SharePoint and Office 365 Groups. If these connection don't exist create them.
+
+![image](https://user-images.githubusercontent.com/22641502/217961722-ecbfbb38-d3c3-4c74-b38b-c14909b6e8ab.png)
+
+Click "Import"
+
+Wait that the solution will be imported
+
+<img width="1051" alt="image" src="https://user-images.githubusercontent.com/22641502/217961873-2be01d86-2fee-404b-93ae-45b1ffbe2032.png">
+
+Now open the solution and change environment variables value
+
+<img width="1048" alt="image" src="https://user-images.githubusercontent.com/22641502/217963058-4132557d-cc34-4790-855e-d7a450c1bbe5.png">
+
+First change the "SharePointSiteUrl" value. Here select your SharePoint site where exist your invoices document library
+
+![image](https://user-images.githubusercontent.com/22641502/217963241-76791dc9-f480-4499-8c1a-6d3bd0e8e22b.png)
+
+
 
 
 
