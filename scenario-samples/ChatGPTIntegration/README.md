@@ -17,6 +17,8 @@ https://powerapps.microsoft.com/en-us/ai-builder/
 
 <img width="567" alt="image" src="https://user-images.githubusercontent.com/22641502/216955955-ceeb67f3-b4b7-4604-ac9c-6cf175cf8e34.png">
 
+- A OpenAI free subscription with a valid key (in the format "Bearer XXXkeyXXX") for Power Platform OpenAI Independent connector
+
 ### Create a SharePoint Document Library in your Site
 In your Team or Communication SharePoint site you need to create a document library. 
 Remember this name because you must set an Environment Variable with this document library name.
@@ -267,7 +269,7 @@ Select your preferred view
 In this sample for invoice upload, the Power App use Graph API.
 For this is necessary identify the SharePoint site ID and document library ID
 
-Open graph explorer at link https://developer.microsoft.com/en-us/graph/graph-explorer and insert your credential
+Open graph explorer at link https://developer.microsoft.com/en-us/graph/graph-explorer and insert your credential (remember to use the correct consent for read sites properties and upload file in a document library)
 
 Use this call: https://graph.microsoft.com/v1.0/sites/<<tenantName>>.sharepoint.com:/<<spSiteUrl>> 
 Es: https://graph.microsoft.com/v1.0/sites/tenantXXX.sharepoint.com:/sites/DemoSyntex
@@ -283,7 +285,7 @@ Use this call https://graph.microsoft.com/v1.0/sites/<<siteID>>/drives to take t
 Copy these values in one text editor, will be necessary to set an environment variables value
 
 ### Install Power Platform Solution
-Open your Power Platform Environment where you want to install the solution SyntexChatGPTIntegration_1_0_0_1.zip
+Open your Power Platform Environment where you want to install the solution SyntexChatGPTIntegration_1_0_0_3.zip
 Click on "Import Solution"
 
 <img width="521" alt="image" src="https://user-images.githubusercontent.com/22641502/217961364-c7aa6f29-6a25-438d-b133-612588ee833b.png">
@@ -296,23 +298,47 @@ Leave all default settings and click "Next"
 
 <img width="481" alt="image" src="https://user-images.githubusercontent.com/22641502/217961524-77f9827d-ac91-47d3-b602-d9489257cfcf.png">
 
-Select the correct connections versus SharePoint and Office 365 Groups. If these connection don't exist create them.
+Select the correct connections versus SharePoint, Office 365 Groups and OpenAI Independent connector. If these connection don't exist create them.
 
-![image](https://user-images.githubusercontent.com/22641502/217961722-ecbfbb38-d3c3-4c74-b38b-c14909b6e8ab.png)
+<img width="482" alt="image" src="https://user-images.githubusercontent.com/22641502/218081446-4469718a-fcbd-424f-8d8b-ce70bb141e1d.png">
 
 Click "Import"
+Set the correct value for all necessary environment variables
 
-Wait that the solution will be imported
+![image](https://user-images.githubusercontent.com/22641502/218065979-370ad8b0-8dd7-41d1-aa96-46575329667a.png)
+  
+Wait that the import process finished
+  
+<img width="1023" alt="image" src="https://user-images.githubusercontent.com/22641502/218066444-d160bda3-60c4-458d-8a3a-c59c3bf137cd.png">
 
-<img width="1051" alt="image" src="https://user-images.githubusercontent.com/22641502/217961873-2be01d86-2fee-404b-93ae-45b1ffbe2032.png">
+Open the canvas app "Manage Invoices Syntex ChatGPT"
+  
+<img width="982" alt="image" src="https://user-images.githubusercontent.com/22641502/218069059-da1ce13d-1d68-4254-af97-d97de4e44ee1.png">
+  
+### Test the app
 
-Now open the solution and change environment variables value
+Click on "Attach file" and select Adatum test invoice
 
-<img width="1048" alt="image" src="https://user-images.githubusercontent.com/22641502/217963058-4132557d-cc34-4790-855e-d7a450c1bbe5.png">
+<img width="1198" alt="image" src="https://user-images.githubusercontent.com/22641502/218069743-05adfece-d1b4-4fb6-88d9-4a60bebebcc5.png">
+  
+Click "Upload" button and using refresh button to see the document detail
 
-First change the "SharePointSiteUrl" value. Here select your SharePoint site where exist your invoices document library
+<img width="914" alt="image" src="https://user-images.githubusercontent.com/22641502/218084712-50263624-5fa4-4378-a90d-f36091d9113c.png">
 
-![image](https://user-images.githubusercontent.com/22641502/217963241-76791dc9-f480-4499-8c1a-6d3bd0e8e22b.png)
+Wait that Syntex model analyze your document
+  
+<img width="1181" alt="image" src="https://user-images.githubusercontent.com/22641502/218088350-147072ab-2f30-45ce-a58f-2768e2e9502d.png">
+
+Suppose that you want more info regarding "Safe pool alarm".... you may ask to Open AI
+
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/22641502/218088491-4a29a5f0-c5d8-40f4-8653-6e3e38fe2ff0.png">
+
+and this could be a response....
+
+<img width="807" alt="image" src="https://user-images.githubusercontent.com/22641502/218088560-005e2ab9-e28f-47df-afd3-d26fb95bd5d9.png">
+
+
+  
 
 
 
