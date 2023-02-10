@@ -285,7 +285,7 @@ Use this call https://graph.microsoft.com/v1.0/sites/<<siteID>>/drives to take t
 Copy these values in one text editor, will be necessary to set an environment variables value
 
 ### Install Power Platform Solution
-Open your Power Platform Environment where you want to install the solution SyntexChatGPTIntegration_1_0_0_3.zip
+Open your Power Platform Environment where you want to install the solution SyntexChatGPTIntegration_1_0_0_5.zip
 Click on "Import Solution"
 
 <img width="521" alt="image" src="https://user-images.githubusercontent.com/22641502/217961364-c7aa6f29-6a25-438d-b133-612588ee833b.png">
