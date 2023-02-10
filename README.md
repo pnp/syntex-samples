@@ -2,7 +2,7 @@
 
 This repository contains community samples that demonstrate different usage patterns of unstructured document processing models (formerly known as document understanding models) in Microsoft Syntex.
 
-> We welcome community contributions (e.g. Syntex unstructured document processing models) to the samples folder in this repository. Note that if you contribute a model, please make sure that the training data submitted with your model can be publicly shared.
+> We welcome community contributions (e.g. Syntex unstructured document processing models) to the models folder in this repository. Note that if you contribute a model, please make sure that the training data submitted with your model can be publicly shared.
 
 > **NOTE:** Unfortunately at this time other Syntex document processing model types such as structured or freeform cannot be exported to a PnP template. So these cannot be shared in this repository. 
 
