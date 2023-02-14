@@ -18,6 +18,15 @@ https://powerapps.microsoft.com/en-us/ai-builder/
 <img width="567" alt="image" src="https://user-images.githubusercontent.com/22641502/216955955-ceeb67f3-b4b7-4604-ac9c-6cf175cf8e34.png">
 
 - A OpenAI free subscription with a valid key (in the format "Bearer XXXkeyXXX") for Power Platform OpenAI Independent connector
+If you don't have this key register your free account at https://platform.openai.com/overview
+
+![image](https://user-images.githubusercontent.com/22641502/218747930-21c8b22f-fe38-42b8-b8de-e3921ec4e1c8.png)
+
+Click on "View API Keys"
+
+![image](https://user-images.githubusercontent.com/22641502/218748117-f5986232-0484-4f5e-b751-3337825b75fc.png)
+
+and select "Create new secret key"
 
 ### Create a SharePoint Document Library in your Site
 In your Team or Communication SharePoint site you need to create a document library. 
