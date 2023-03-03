@@ -148,7 +148,7 @@ The next step is to create the Syntex Content Assembly modern template. Currentl
   ![image](assets/11-ServiceAgreementCATemplateInLibrary.png)
 
 ## Import Power Platform Solution
-In this step you need to import **DocManagementMicrosoftSyntex_1_0_0_8.zip** as solution in your Power Platform Environment.
+In this step you need to import **DocManagementMicrosoftSyntex_1_0_0_9.zip** as solution in your Power Platform Environment.
 **To do this remember that you need an Environment with Dataverse.**
 
 ### 1.	Import Solution
