@@ -5,3 +5,5 @@
     href: Contracts-Management/README.md
   - name: Invoice Processing
     href: Invoice-Processing/README.md
+  - name: Unstructured DPM & Content Assembly App
+    href: Unstructured-DPM-and-CA-Scenario/README.md

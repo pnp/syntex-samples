@@ -2,9 +2,9 @@
 
 This repository contains community samples that demonstrate different usage patterns of unstructured document Processing models (formerly known as document understanding models) in Microsoft Syntex.
 
-> We do welcome community contributions (e.g. Syntex unstructured document processing models) to the samples folder in this repository. Note that if you use contribute a model, please make sure that the training data submitted with your model can be publicly shared.
+> We do welcome community contributions (e.g. Syntex unstructured document processing models) to the samples folder in this repository. Note that if you contribute a model, please make sure that the training data submitted with your model can be publicly shared.
 
-> **NOTE:** Unfortunately other Syntex model types such as structured document processing or freefom document processing cannot at this moment in time be exported to a PnP template. So cannot be shared in this repository. 
+> **NOTE:** Unfortunately other Syntex document processing model types such as structured or freeform cannot at this moment in time be exported to a PnP template. So cannot be shared in this repository. 
 
 ## Have issues or questions?
 
@@ -26,7 +26,7 @@ Please use following logic on submitting your questions or issues to right locat
 
 The samples in this repository contain both the unstructured document processing model files, as well as the files used to train the model. Once imported, you will be able to use these models to process files, as well as view and edit the key model elements- the classifier and extractors.
 
-Samples are provided as PnP template, that should be imported to a Content Center site.
+Samples are provided as a PnP template, that should be imported to a Content Center site.
 
 For example, this can be done using [PnP PowerShell](https://pnp.github.io/powershell/):
 
@@ -38,7 +38,7 @@ Invoke-PnPSiteTemplate -Path .\sampleModel.pnp
 
 See the [Exporting Models](articles/Exporting-Models.md) article for guidance on how to export unstructured document processing models.
 
-Once a model has been imported in your Microsoft Syntex Content Center site you can review and update it to match your needs. If you want to further deploy the model then checkout the [Deploying Models](articles/Deploying-Models.md) article to learn more.
+Once a model has been imported in your Syntex Content Center site you can review and update it to match your needs. If you want to further deploy the model then checkout the [Deploying Models](articles/Deploying-Models.md) article to learn more.
 
 ## Authors
 

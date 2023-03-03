@@ -10,5 +10,7 @@
   href: site-templates/README.md
 - name: Scripts
   href: scripts/README.md
+- name: GitHub
+  href: https://github.com/pnp/syntex-samples
 - name: Contributing
   href: contributing/

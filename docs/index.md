@@ -1,16 +1,17 @@
 # Microsoft Syntex Samples
 
-This repository contains community samples that demonstrate different usage patterns of unstructured document Processing models (formerly known as document understanding models) in Microsoft Syntex.
+This repository contains community samples that demonstrate different usage patterns of unstructured document processing models (formerly known as document understanding models) in Microsoft Syntex.
 
-> We do welcome community contributions (e.g. Syntex unstructured document processing models) to the samples folder in this repository. Note that if you use contribute a model, please make sure that the training data submitted with your model can be publicly shared.
+> We welcome community contributions (e.g. Syntex unstructured document processing models) to the models folder in this repository. Note that if you contribute a model, please make sure that the training data submitted with your model can be publicly shared.
 
-> **NOTE:** Unfortunately other Syntex model types such as structured document processing or freefom document processing cannot at this moment in time be exported to a PnP template. So cannot be shared in this repository. 
+> **NOTE:** Unfortunately at this time other Syntex document processing model types such as structured or freeform cannot be exported to a PnP template. So these cannot be shared in this repository. 
 
 ## Have issues or questions?
 
 Please use following logic on submitting your questions or issues to right location to ensure that they are noticed and addressed as soon as possible.
 
 * You have issue on specific sample - use [issue list in this repository](https://github.com/pnp/syntex-samples/issues).
+* If you have any Syntex questions - use [discussions in this repository](https://github.com/pnp/syntex-samples/discussions).
 
 ## Additional resources
 
@@ -24,7 +25,7 @@ Please use following logic on submitting your questions or issues to right locat
 
 ## Using the samples
 
-The samples in this repository contain both the unstructured document processing model files, as well as the files used to train the model. Once imported, you will be able to use these models to process files, as well as view and edit the key model elements- the classifier and extractors.
+The samples in this repository contain both the unstructured document processing model files, as well as the files used to train the model. Once imported, you will be able to use these models to process files, as well as view and edit the key model elements - the classifier and extractors.
 
 Samples are provided as PnP template, that should be imported to a Content Center site.
 
@@ -38,7 +39,7 @@ Invoke-PnPSiteTemplate -Path .\sampleModel.pnp
 
 See the [Exporting Models](articles/Exporting-Models.md) article for guidance on how to export unstructured document processing models.
 
-Once a model has been imported in your Microsoft Syntex Content Center site you can review and update it to match your needs. If you want to further deploy the model then checkout the [Deploying Models](articles/Deploying-Models.md) article to learn more.
+Once a model has been imported in your Syntex Content Center site you can review and update it to match your needs. If you want to further deploy the model then checkout the [Deploying Models](articles/Deploying-Models.md) article to learn more.
 
 ## Authors
 
