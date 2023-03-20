@@ -60,6 +60,7 @@ Select a name and click "Create"
 <img width="306" alt="image" src="https://user-images.githubusercontent.com/22641502/217099382-f7233146-cf99-48f4-940c-373515c59e69.png">
 
 4) Invoice Total
+<img width="306" alt="image" src="https://user-images.githubusercontent.com/12968962/226345254-251d8b9b-31b6-4ac9-9b22-b6edfffad054.png">
 
 5) Invoice Tax
 <img width="308" alt="image" src="https://user-images.githubusercontent.com/22641502/217099646-69c5ecba-f56f-44a1-b8a9-93f4009c652d.png">
