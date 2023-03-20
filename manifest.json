@@ -306,6 +306,30 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "scenario-samples/ChatGPTIntegration/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "scenario-samples/ChatGPTIntegration/README.html",
+          "hash": "8R3rBJfZDvks0Wc0bghUVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "scenario-samples/ChatGPTIntegration/SampleData/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "scenario-samples/ChatGPTIntegration/SampleData/README.html",
+          "hash": "BGs5QpN8DNko2QI162NNoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "scenario-samples/Contracts-Management/README.md",
       "output": {
         ".html": {
@@ -522,7 +546,7 @@
       "output": {
         ".html": {
           "relative_path": "scenario-samples/Unstructured-DPM-and-CA-Scenario/README.html",
-          "hash": "iQ3jUDvhh3xhKczzLtY2xQ=="
+          "hash": "uFdX+Yrjal+pDkgXDnzKow=="
         }
       },
       "is_incremental": false,
@@ -1860,7 +1884,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 33,
+          "total_file_count": 35,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
