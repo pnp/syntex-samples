@@ -1,6 +1,8 @@
 - name: Scenario Samples
   href: README.md
   items:
+  - name: ChatGPT Integration
+    href: ChatGPT-Integration/README.md
   - name: Contracts Management
     href: Contracts-Management/README.md
   - name: Invoice Processing
