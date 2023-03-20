@@ -26,7 +26,7 @@ Click on "View API Keys"
 
 ![image](https://user-images.githubusercontent.com/22641502/218748117-f5986232-0484-4f5e-b751-3337825b75fc.png)
 
-and select "Create new secret key"
+Then select "Create new secret key" and take a note of the secret key generated. You will need this later.
 
 ### Create a SharePoint Document Library in your Site
 In your Team or Communication SharePoint site you need to create a document library. 
