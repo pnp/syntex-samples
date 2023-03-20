@@ -1,7 +1,7 @@
 # Syntex and Chat GPT Integration App
-In this scenario you will find a Power Platfomr sample document management solution that uses Microsoft Syntex Structured Document Processing and Open AI Chat GPT integration.
+In this scenario you will find a Power Platform sample document management solution that uses Microsoft Syntex Structured Document Processing and Open AI Chat GPT integration.
 
-In this Power App you can upload a new invoice and after Syntex classification you could ask more details about all items extracted from your invoice to Open AI
+In this Power App you can upload a new invoice and after Syntex classification you can ask for more details with about all items extracted from your invoice using Open AI.
 
 
 Deploy today to your tenant and see a great example of the art of the possible with Power Platform, Microsoft Syntex and Open AI.
@@ -47,7 +47,7 @@ Select a name and click "Create"
 
 <img width="862" alt="image" src="https://user-images.githubusercontent.com/22641502/217097843-83d4feaa-1a87-4287-8cbd-618097705b2d.png">
 
-#### Start to create all necessary fields
+#### Start to create all the necessary fields
 <img width="474" alt="image" src="https://user-images.githubusercontent.com/22641502/217099112-3068f7a8-2925-451f-8f70-1e63f3cc8b25.png">
 
 1) Invoice Number
@@ -67,11 +67,12 @@ Select a name and click "Create"
 6) Vendor
 <img width="305" alt="image" src="https://user-images.githubusercontent.com/22641502/217099722-8479b5e7-75bb-41d2-851f-eb699b68dfdd.png">
 
-In this moment this is the current model situation
+When you have finished creating the above fields - this is what the screen will look like
+
 <img width="590" alt="image" src="https://user-images.githubusercontent.com/22641502/217099809-623d62b6-f98a-4312-a5c4-148e11b3c257.png">
 
 Now you need to create a table field for the invoice details
-For the new field you need to select "Table"
+For the new field you need to select the "+ Add" dropdown and then select "Table"
 
 <img width="239" alt="image" src="https://user-images.githubusercontent.com/22641502/217099980-14d27ca0-4cfc-47fc-a4a1-3d57cacaca82.png">
 
@@ -86,7 +87,7 @@ Click "Next"
 
 <img width="482" alt="image" src="https://user-images.githubusercontent.com/22641502/217100371-c9cc178a-f9f7-4c5b-9c8e-d348e260ffde.png">
 
-#### Start to create all necessary collections
+#### Start to create all the necessary collections
 
 Click on "New Collection"
 
@@ -120,7 +121,7 @@ Select "Upload 5 documents"
 
 <img width="596" alt="image" src="https://user-images.githubusercontent.com/22641502/217101834-5869fd67-6589-473d-a951-1b04633de5b8.png">
 
-When the upload process finished press "Done"
+When the upload process has finished press "Done"
 
 <img width="593" alt="image" src="https://user-images.githubusercontent.com/22641502/217102015-292d8bbd-6516-46fa-8894-e78ce3c0fa65.png">
 
@@ -156,7 +157,7 @@ Vendor
 
 <img width="353" alt="image" src="https://user-images.githubusercontent.com/22641502/217102877-d2ff91a3-d26f-41c3-8b0b-394c1228f7f8.png">
 
-Now you need to identify the details table in the form as showed in this picture
+Now you need to identify the details table in the form as displayed in this picture
 
 <img width="494" alt="image" src="https://user-images.githubusercontent.com/22641502/217103026-acc8fae9-1b3b-4312-baf3-4fb879d6a2c2.png">
 
@@ -164,11 +165,11 @@ On the right select "Advanced tagging mode"
 
 <img width="895" alt="image" src="https://user-images.githubusercontent.com/22641502/217103155-7c30abba-8527-492f-b808-63b58f2da4b5.png">
 
-This show a table on the right part
+This view the table on the right section
 
 <img width="491" alt="image" src="https://user-images.githubusercontent.com/22641502/217103239-15ab96a8-6d60-4d14-a5c3-f5fffe22d2c3.png">
 
-In the first row select the description.... and the description will be moved on the table on the right under item column
+In the first row select the description.... and the description will be displayed on the table on the right under the item column
 
 <img width="875" alt="image" src="https://user-images.githubusercontent.com/22641502/217103631-ebd7da3e-3e30-45cc-9d47-86b3b7ea80e9.png">
 
@@ -176,7 +177,7 @@ The same for quantity...
 
 <img width="885" alt="image" src="https://user-images.githubusercontent.com/22641502/217103727-21c4d12a-512a-4b12-a1dc-80dbe715a281.png">
 
-Also for line total that will be moved under Amount
+Also for line total that will be displayed under Amount
 
 <img width="878" alt="image" src="https://user-images.githubusercontent.com/22641502/217103846-e135a566-b65e-4414-b14c-9bbc43df5689.png">
 
@@ -212,7 +213,7 @@ Now you can start to tag all "Contoso invoices"
 6) Invoice Date
 <img width="306" alt="image" src="https://user-images.githubusercontent.com/22641502/217219667-001a9c11-90b2-4f5b-b666-8f970e56c505.png">
 
-Now you need to identify the details table in the form as showed in this picture
+Now you need to identify the details table in the form as displayed in this picture
 
 <img width="513" alt="image" src="https://user-images.githubusercontent.com/22641502/217219811-26d7b6bc-e7cf-4b8e-928e-83b09397ae67.png">
 
@@ -241,15 +242,15 @@ When you finished click "Next" to review the model
 
 <img width="985" alt="image" src="https://user-images.githubusercontent.com/22641502/217232861-a1c0b23c-0aa0-4552-b4c8-94fa513d3bf2.png">
 
-Now Train the model...
+Now Train the model by clicking the Train button...
 
 <img width="805" alt="image" src="https://user-images.githubusercontent.com/22641502/217232930-76003480-ee1a-4e75-a4f2-67fd0d76d166.png">
 
-<img width="388" alt="image" src="https://user-images.githubusercontent.com/22641502/217232968-9f9a7e2c-6e2d-4f7f-ba7c-5c828331ef29.png">
+Your Model is training with the be displayed
 
 <img width="389" alt="image" src="https://user-images.githubusercontent.com/22641502/217233020-c755c531-0805-44da-ae17-54dd0fc8e79c.png">
 
-In the Content Center wait that training is finished...
+In the Content Center wait until the training is finished...
 
 <img width="1188" alt="image" src="https://user-images.githubusercontent.com/22641502/217233206-1e93afac-1094-40e0-a02e-95cec59cce6f.png">
 
@@ -258,7 +259,7 @@ Click "Publish" to publish the model
 <img width="1193" alt="image" src="https://user-images.githubusercontent.com/22641502/217233293-0d15de12-8d4a-40a6-bcfd-57d884bc39ea.png">
 
 #### Apply Model to a SharePoint Document Library
-Choose the document library created before for associate the model
+Choose the document library previously created to associate the newly created model to.
 
 <img width="1183" alt="image" src="https://user-images.githubusercontent.com/22641502/217233730-452c9e63-c24e-45e4-9d79-c6a94dbdbbc3.png">
 
@@ -278,7 +279,7 @@ Select your preferred view
 In this sample for invoice upload, the Power App use Graph API.
 For this is necessary identify the SharePoint site ID and document library ID
 
-Open graph explorer at link https://developer.microsoft.com/en-us/graph/graph-explorer and insert your credential (remember to use the correct consent for read sites properties and upload file in a document library)
+Open graph explorer at https://developer.microsoft.com/en-us/graph/graph-explorer and insert your credential (remember to use the correct consent for read sites properties and upload file in a document library)
 
 Use this call: https://graph.microsoft.com/v1.0/sites/<<tenantName>>.sharepoint.com:/<<spSiteUrl>> 
 Es: https://graph.microsoft.com/v1.0/sites/tenantXXX.sharepoint.com:/sites/DemoSyntex
@@ -291,7 +292,7 @@ The second part of id is your site id
   
 Use this call https://graph.microsoft.com/v1.0/sites/<<siteID>>/drives to take the document library id
   
-Copy these values in one text editor, will be necessary to set an environment variables value
+Copy these values into a text editor or somewhere safe, will be necessary to set an environment variables value
 
 ### Install Power Platform Solution
 Open your Power Platform Environment where you want to install the solution SyntexChatGPTIntegration_1_0_0_5.zip
@@ -301,13 +302,11 @@ Click on "Import Solution"
 
 <img width="484" alt="image" src="https://user-images.githubusercontent.com/22641502/217961406-2a2fdd0b-9989-42c2-b899-3412064a42ae.png">
 
-and after selection click "Next"
-
 Leave all default settings and click "Next"
 
 <img width="481" alt="image" src="https://user-images.githubusercontent.com/22641502/217961524-77f9827d-ac91-47d3-b602-d9489257cfcf.png">
 
-Select the correct connections versus SharePoint, Office 365 Groups and OpenAI Independent connector. If these connection don't exist create them.
+Select the correct connections of SharePoint, Office 365 Groups and OpenAI Independent connector. If these connection don't exist create them.
 
 <img width="482" alt="image" src="https://user-images.githubusercontent.com/22641502/218081446-4469718a-fcbd-424f-8d8b-ce70bb141e1d.png">
 
@@ -316,11 +315,11 @@ Set the correct value for all necessary environment variables
 
 ![image](https://user-images.githubusercontent.com/22641502/218065979-370ad8b0-8dd7-41d1-aa96-46575329667a.png)
   
-Wait that the import process finished
+Wait until the import process has finished
   
 <img width="1023" alt="image" src="https://user-images.githubusercontent.com/22641502/218066444-d160bda3-60c4-458d-8a3a-c59c3bf137cd.png">
 
-Open the canvas app "Manage Invoices Syntex ChatGPT"
+Once finished, open the canvas app "Manage Invoices Syntex ChatGPT"
   
 <img width="982" alt="image" src="https://user-images.githubusercontent.com/22641502/218069059-da1ce13d-1d68-4254-af97-d97de4e44ee1.png">
   
@@ -330,19 +329,19 @@ Click on "Attach file" and select Adatum test invoice
 
 <img width="1198" alt="image" src="https://user-images.githubusercontent.com/22641502/218069743-05adfece-d1b4-4fb6-88d9-4a60bebebcc5.png">
   
-Click "Upload" button and using refresh button to see the document detail
+Click the "Upload" button and once the file has uploaded, use refresh button on the App to retrieve the document detail
 
 <img width="914" alt="image" src="https://user-images.githubusercontent.com/22641502/218084712-50263624-5fa4-4378-a90d-f36091d9113c.png">
 
-Wait that Syntex model analyze your document
+Wait until the Syntex model has analyzed your document
   
 <img width="1181" alt="image" src="https://user-images.githubusercontent.com/22641502/218088350-147072ab-2f30-45ce-a58f-2768e2e9502d.png">
 
-Suppose that you want more info regarding "Safe pool alarm".... you may ask to Open AI
+You now may want to find out more information regarding an item i.e. "Safe pool alarm".... you may ask Clippy to search Open AI
 
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/22641502/218088491-4a29a5f0-c5d8-40f4-8653-6e3e38fe2ff0.png">
 
-and this could be a response....
+This would then be the response....
 
 <img width="807" alt="image" src="https://user-images.githubusercontent.com/22641502/218088560-005e2ab9-e28f-47df-afd3-d26fb95bd5d9.png">
 
