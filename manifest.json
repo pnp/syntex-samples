@@ -306,11 +306,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "scenario-samples/ChatGPTIntegration/README.md",
+      "source_relative_path": "scenario-samples/ChatGPT-Integration/README.md",
       "output": {
         ".html": {
-          "relative_path": "scenario-samples/ChatGPTIntegration/README.html",
-          "hash": "8R3rBJfZDvks0Wc0bghUVw=="
+          "relative_path": "scenario-samples/ChatGPT-Integration/README.html",
+          "hash": "eQbs5wyQqf+zM0/nCc0pCw=="
         }
       },
       "is_incremental": false,
@@ -318,11 +318,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "scenario-samples/ChatGPTIntegration/SampleData/README.md",
+      "source_relative_path": "scenario-samples/ChatGPT-Integration/SampleData/README.md",
       "output": {
         ".html": {
-          "relative_path": "scenario-samples/ChatGPTIntegration/SampleData/README.html",
-          "hash": "BGs5QpN8DNko2QI162NNoQ=="
+          "relative_path": "scenario-samples/ChatGPT-Integration/SampleData/README.html",
+          "hash": "Z9OlOgnWa5bO8za66EE1jw=="
         }
       },
       "is_incremental": false,
